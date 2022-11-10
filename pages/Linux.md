@@ -689,46 +689,49 @@ collapsed:: true
 			  UserKnownHostFile /dev/null
 # 日期与时间
 	- ## 时间命令
+	  collapsed:: true
 		- date
 		- 修改时间
 			- date -s 11:11:11
 			- date -s 2022-11-11
 			- date -s 2022-11-11 11:11:11
 	- ## 时间自动同步
-- 自动同步时间
-	- yum install ntp -y
-	- ntpdate cn.ntp.org.cn
-- 在CentOS8.0中默认不再支持ntp软件包，时间同步将由chrony来实现
-	- dnf install chrony -y
-	- 手动同步时间
-	  
-	    ```Shell
-	  sh-4.4# chronyd -q 'server ntp.ntsc.ac.cn iburst'
-	  2022-11-10T08:39:11Z chronyd version 4.1 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
-	  2022-11-10T08:39:15Z System clock wrong by 0.222304 seconds (step)
-	  2022-11-10T08:39:15Z chronyd exiting
-	  sh-4.4# 
-	  ```
-	- 更好的方式是让chronyd后台运行，自动同步时间：
-	  
-	    ```Plain Text
-	  systemctl enable chronyd
-	  systemctl start chronyd
-	  ```
-	  
-	  
-	    **注意**：chronyd服务启动后，不能再用chronyd方式手动同步时间，会报“Fatal error : Another chronyd may already be running”的错误。
-- ## 命令执行时间统计
-  
-  ```Shell
-  #!/bin/bash
-  start=$(date +%s)
-  nmap man.linuxde.net $> /dev/null
-  end=$(date+%s)
-  difference=$((end-start))
-  echo $difference seconds .
-  
-  ```
+	  collapsed:: true
+		- 自动同步时间
+		  collapsed:: true
+			- yum install ntp -y
+			- ntpdate cn.ntp.org.cn
+		- 在CentOS8.0中默认不再支持ntp软件包，时间同步将由chrony来实现
+		  collapsed:: true
+			- dnf install chrony -y
+			- 手动同步时间
+			  
+			    ```Shell
+			  sh-4.4# chronyd -q 'server ntp.ntsc.ac.cn iburst'
+			  2022-11-10T08:39:11Z chronyd version 4.1 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+			  2022-11-10T08:39:15Z System clock wrong by 0.222304 seconds (step)
+			  2022-11-10T08:39:15Z chronyd exiting
+			  sh-4.4# 
+			  ```
+			- 更好的方式是让chronyd后台运行，自动同步时间：
+			  
+			    ```Plain Text
+			  systemctl enable chronyd
+			  systemctl start chronyd
+			  ```
+			  
+			  
+			    **注意**：chronyd服务启动后，不能再用chronyd方式手动同步时间，会报“Fatal error : Another chronyd may already be running”的错误。
+	- ## 命令执行时间统计
+		- ```Shell
+		  #!/bin/bash
+		  start=$(date +%s)
+		  nmap man.linuxde.net $> /dev/null
+		  end=$(date+%s)
+		  difference=$((end-start))
+		  echo $difference seconds .
+		  
+		  ```
 # 用户-组-权限
 ## 用户
 - 新增用户
