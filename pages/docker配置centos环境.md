@@ -1,3 +1,3 @@
 - ## 拉取镜像并运行
-- docker run -tid --name CentOS --privileged=true --restart=always -p 2222:22 centos:latest usr/sbin/init
+- ```docker run -tid --name CentOS --privileged=true --restart=always -p 2222:22 centos:latest usr/sbin/init```
 - ## 配置centos所需的环境
