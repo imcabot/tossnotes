@@ -321,6 +321,7 @@ collapsed:: true
 		  collapsed:: true
 			- 这个目录存放着在不断扩充着的东西，我们习惯将那些经常被修改的目录放在这个目录下。包括各种日志文件
 	- ## Linux的文件操作
+	  collapsed:: true
 		- cd 
 		  collapsed:: true
 			- 改变当前工作目录
@@ -364,10 +365,12 @@ collapsed:: true
 			- 删除文件夹
 				- rm -r abcd（-r 为 文件夹）
 				- rm -rf abcd 谨慎使用，从删库到跑路
-		- touch
+		- touch 
+		  collapsed:: true
 			- 如果没有就创建一个文件
 			- 如果该文件已经存在，修改文件的三个时间，将三个时间改为当前时间
 		- stat
+		  collapsed:: true
 			- 查看文件的状态
 			- lnode当前文件在文件系统的唯一标识，类似于ID
 			- 时间
@@ -377,6 +380,7 @@ collapsed:: true
 					- 文件大小，文件所有者，文件权限
 					- 对于文件的描述信息
 		- ln
+		  collapsed:: true
 			- 创建文件的链接
 			- 软（符号）连接
 				- ln -s luck01 s1
@@ -388,7 +392,8 @@ collapsed:: true
 				- 硬链接和原始文件使用文件系统中的同一个文件
 				- 如果害怕一个文件被别人误删，你可以使用硬链接保护这个文件
 			- 软硬链接在链接文件的时候，推荐使用文件的绝对路径，否则可能出现问题
-		- cat tac more less
+		- cat tac more less 
+		  collapsed:: true
 			- cat
 				- 将文件的内容输出到终端上，根据行号顺序输出
 			- tac
@@ -396,9 +401,11 @@ collapsed:: true
 			- more less
 				- 将文件将文件的内容输出到终端上，只输出屏幕大小
 		- head
+		  collapsed:: true
 			- head -n luck01
 				- 将luck01文件的前n行输出到终端上
 		- tail
+		  collapsed:: true
 			- tail -n luck01
 				- 将luck01文件的后n行输出到终端上
 			- 读取新增数据
@@ -411,92 +418,97 @@ collapsed:: true
 					- 它会监听指定名字的文件，如果文件被删除后，重新创建
 					- 它会重新监听新文件的数据变化，监听不受影响
 		- find
+		  collapsed:: true
 			- 查找指定的文件
 			- find要查找的范围 -name 名字
 			- find /etc -name profile
 	- ## VI和VIM编辑器
+	  collapsed:: true
 		- ![image 11.png](../assets/image_11_1668097029548_0.png)
-	- ### 打开文件
-		- 正常打开
-			- vi profile
-		- 打开问价，并将光标置于第8行
-			- vi +8 profile
-		- 打开最后一行
-			- vi + profile
-			- 按n查找下一个，按N查找上一个
-		- 打开指定搜索单词的位置
-		- vi +/if profile
-	- ### 三种模式
-		- 编辑（命令）模式
-			- 编辑模式中，每一个按键都有其他的作用
-		- 输入模式
-			- 每一个按键按下什么，就向文本中输入什么
-		- 末行（命令行）模式
-			- 我们可以直接在VI中输入特定的命令
-	- ### 三种模式切换
-		- ![image 12.png](../assets/image_12_1668097045962_0.png)
-		- 编辑模式>输入模式
+		- ### 打开文件
 		  collapsed:: true
-			- a 追加数据
-			- i 在当前位置插入数据库
-			- I 行首
-			- A 行尾
-			- o 在当前行后面开启一个新的输入行
-			- O 在当前行上面开启一个新的输入行
-		- 输入模式>编辑模式
+			- 正常打开
+				- vi profile
+			- 打开问价，并将光标置于第8行
+				- vi +8 profile
+			- 打开最后一行
+				- vi + profile
+				- 按n查找下一个，按N查找上一个
+			- 打开指定搜索单词的位置
+			- vi +/if profile
+		- ### 三种模式
 		  collapsed:: true
-			- 按下esc
-		- 编辑模式>末行模式
+			- 编辑（命令）模式
+				- 编辑模式中，每一个按键都有其他的作用
+			- 输入模式
+				- 每一个按键按下什么，就向文本中输入什么
+			- 末行（命令行）模式
+				- 我们可以直接在VI中输入特定的命令
+		- ### 三种模式切换
 		  collapsed:: true
-			- 按下 ：
-		- 末行模式>编辑模式
+			- ![image 12.png](../assets/image_12_1668097045962_0.png)
+			- 编辑模式>输入模式
+			  collapsed:: true
+				- a 追加数据
+				- i 在当前位置插入数据库
+				- I 行首
+				- A 行尾
+				- o 在当前行后面开启一个新的输入行
+				- O 在当前行上面开启一个新的输入行
+			- 输入模式>编辑模式
+			  collapsed:: true
+				- 按下esc
+			- 编辑模式>末行模式
+			  collapsed:: true
+				- 按下 ：
+			- 末行模式>编辑模式
+			  collapsed:: true
+				- 按下esc
+		- ### 编辑模式
 		  collapsed:: true
-			- 按下esc
-	- ### 编辑模式
-	  collapsed:: true
-		- G 最后一行
-		- gg 跳转到第一行
-		- 数字gg 跳转到第数字行
-		- w 下个单词
-		- 数字w
-		- dw 删除一个单词
-		- 3dw 删除三个单词
-		- 3dd 删除三行
-		- u 回退到前面的操作（撤销）
-		- . 回退u执行的操作（取消撤销）
-		- yy 复制一行
-		- 3yy 复制三行
-		- p 粘贴
-		- 6p 粘贴6次
-		- x 剪切
-		- 3x 剪切3个字符
-		- r 替换，然后输入一个字符替换
-		- 3r 替换三个
-	- ### 输入模式
-	  collapsed:: true
-		- 按啥是啥
-	- ### 末行模式
-	  collapsed:: true
-		- w 保存
-		- q 退出
-		- ! 强制执行
-		- set nu 显示行号
-		- set nonu 取消行号
-		- wq 保存并退出
-		- q! 强制退出，但是不保存
-		- 如果上次异常退出会保留同名隐藏文件，每次启动会给予提示
-			- 如果确认当前文件没问题，请删除隐藏文件
-		- /pattern
-			- 搜索指定的字符串
-			- /usr n向下查找 N逆向查找
-		- s/p1/p2/g
-			- 替换字符串
-			- g 替换当前行所有 否则只替换当前行第一个
-				- s/abc/lucky/g
-			- 查找指定行
-				- 3,8s/abc/lucky/g
-			- 替换全文
-				- g/abc/s//lucky/g
+			- G 最后一行
+			- gg 跳转到第一行
+			- 数字gg 跳转到第数字行
+			- w 下个单词
+			- 数字w
+			- dw 删除一个单词
+			- 3dw 删除三个单词
+			- 3dd 删除三行
+			- u 回退到前面的操作（撤销）
+			- . 回退u执行的操作（取消撤销）
+			- yy 复制一行
+			- 3yy 复制三行
+			- p 粘贴
+			- 6p 粘贴6次
+			- x 剪切
+			- 3x 剪切3个字符
+			- r 替换，然后输入一个字符替换
+			- 3r 替换三个
+		- ### 输入模式
+		  collapsed:: true
+			- 按啥是啥
+		- ### 末行模式
+		  collapsed:: true
+			- w 保存
+			- q 退出
+			- ! 强制执行
+			- set nu 显示行号
+			- set nonu 取消行号
+			- wq 保存并退出
+			- q! 强制退出，但是不保存
+			- 如果上次异常退出会保留同名隐藏文件，每次启动会给予提示
+				- 如果确认当前文件没问题，请删除隐藏文件
+			- /pattern
+				- 搜索指定的字符串
+				- /usr n向下查找 N逆向查找
+			- s/p1/p2/g
+				- 替换字符串
+				- g 替换当前行所有 否则只替换当前行第一个
+					- s/abc/lucky/g
+				- 查找指定行
+					- 3,8s/abc/lucky/g
+				- 替换全文
+					- g/abc/s//lucky/g
 ## 计算机间的数据传输
 ### Windows- Linux
 - lrzsz
