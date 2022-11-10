@@ -5,7 +5,6 @@
 # 计算机硬件软件体系
 collapsed:: true
 	- ## 冯 诺依曼体系结构
-	  collapsed:: true
 		- 计算机处理的数据和指令一律用二进制数表示
 		- 顺序执行程序
 		- 计算机硬件由运算器、控制器、存储器、输入设备和输出设备五大部分组成
@@ -847,15 +846,15 @@ collapsed:: true
 		- ps -aux
 			- 所有信息
 		- ps -aux --sort -pcpu
-	- top
-- 当前服务器内存使用率
-## 后台进程
-- 只需要在命令的后面添加一个&符号
-	- ing www.baidu,com >>baidu &
-- jobs -l
-	- 可以查看当前的后台进程
-	- 只有当前用户界面可以获取到
-- nohup 可以防止后台进程被挂起
-	- nohup ping baidu.com >> baidu 2>&1 &
-## 杀死进程
-- kill -9 17599
+		- top
+			- 当前服务器内存使用率
+	- ## 后台进程
+		- 只需要在命令的后面添加一个&符号
+			- ing www.baidu,com >>baidu &
+		- jobs -l
+			- 可以查看当前的后台进程
+			- 只有当前用户界面可以获取到
+		- nohup 可以防止后台进程被挂起
+			- nohup ping baidu.com >> baidu 2>&1 &
+	- ## 杀死进程
+		- kill -9 17599
