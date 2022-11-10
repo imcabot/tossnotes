@@ -227,9 +227,8 @@
   disk3 1P
   
   ```
-## Linux文件目录
-
-![image.png](https://flowus.cn/preview/a907b9f4-2d47-4fa0-affc-52c65dbf059a)
+- ## Linux文件目录
+-
 - bin(可执行文件）
 	- bin是Binary的缩写，这个目录存放着最经常使用的命令
 - boot（引导分区）
