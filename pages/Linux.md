@@ -8,7 +8,7 @@
 - 顺序执行程序
 - 计算机硬件由运算器、控制器、存储器、输入设备和输出设备五大部分组成
 - ![image.png](../assets/image_1668088649350_0.png) 
-  ![大图预览](https://cdn.flowus.cn/oss/9b0fae81-353c-4803-b2b4-69d64e60e4ec/image.png?filename=image.png&time=1668074673&token=b5b84217a23f70cb9df688ff320b5937)
+  ![image.png](../assets/image_1668088661465_0.png)
 ## 计算机硬件组成
 - 输入设备
   collapsed:: true
@@ -34,7 +34,7 @@
 		- 控制器主要用来控制和指挥程序和数据的输入运行，以及处理运算结果
 	- 运算器
 		- 运算器主要运行算数运算和逻辑运算，并将中间结果暂存到运算器中
-		- ![image(1).png](../assets/image(1)_1668088508587_0.png)
+		- ![image.png](../assets/image_1668088689891_0.png)
 ## 硬盘的分类
 - 硬盘按照存储介质的不同可以分为如下两种
 	- 机械硬盘
@@ -47,8 +47,7 @@
 		- ![image.png](../assets/image_1668088464837_0.png)
 	- 固态硬盘（Solid State Disk,SSD)
 	- 固态硬盘通过内存颗粒（固态电子存储芯片阵列）来存储数据
-	  
-	  ![image.png](https://flowus.cn/preview/bf89c864-4c33-469d-8d55-a043463ddbd0)
+	-
 - 读写速度的区别
 	- 固态硬盘的读取速度普遍可以达到400M/s，写入速度也可以达到130M/s以上
 	- 其读写速度是普通机械硬盘的3-5倍
