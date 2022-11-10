@@ -573,17 +573,14 @@
 - 需要输入密码
 	- 生成密钥
 		- ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
-		  
-		      ![image.png](https://flowus.cn/preview/9164066d-da3d-4ece-803b-596f41f93062)
+		- ![image 18.png](../assets/image_18_1668097131667_0.png)
 	- 如果想密钥登录哪台主机，只需要把自己的公钥传递给对方主机
 	- 这个密钥要放在 ~/.ssh/authorized_keys
 		- ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.188.101
-		  
-		      ![image.png](https://flowus.cn/preview/b7be1ad6-b78e-4bb2-96e3-6c1c57008e48)
+		- ![image 19.png](../assets/image_19_1668097140568_0.png)
 - 相互免密钥工作流程
-## 主机名与Host校验
-
-![image.png](https://flowus.cn/preview/bccc94e7-ac68-422c-aac4-7362e6e3c080)
+- ## 主机名与Host校验
+- ![image 20.png](../assets/image_20_1668097153262_0.png)
 - 错误原因
 - Cannot determine realm for numeric host
 - 解决方案1--本次
@@ -624,17 +621,17 @@
 	  
 	  
 	    **注意**：chronyd服务启动后，不能再用chronyd方式手动同步时间，会报“Fatal error : Another chronyd may already be running”的错误。
-## 命令执行时间统计‘
-
-```Shell
-#!/bin/bash
-start=$(date +%s)
-nmap man.linuxde.net $> /dev/null
-end=$(date+%s)
-difference=$((end-start))
-echo $difference seconds .
-
-```
+- ## 命令执行时间统计
+  
+  ```Shell
+  #!/bin/bash
+  start=$(date +%s)
+  nmap man.linuxde.net $> /dev/null
+  end=$(date+%s)
+  difference=$((end-start))
+  echo $difference seconds .
+  
+  ```
 # 用户-组-权限
 ## 用户
 - 新增用户
