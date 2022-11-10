@@ -8,7 +8,7 @@
   
     [硬件篇](https://flowus.cn/4fe97b48-6654-4678-9fd8-9ba6ea0452b3)
   
-    [系统篇](https://flowus.cn/5e40f029-cbaf-4452-8b6d-593ac0d47c4e)
+  [[系统篇]] 
   
   本页待办事项
 	- [ ] 关于tossnotes的说明
