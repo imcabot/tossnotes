@@ -213,7 +213,9 @@ collapsed:: true
 			- 如果是单词一般加--
 			- 如果是字母或缩写一般加-
 # Linux的文件系统
+collapsed:: true
 	- ## 万事万物皆文件
+	  collapsed:: true
 		- 文件系统
 		  collapsed:: true
 			- 操作系统如何管理文件，内部定义了一些规则或者定义
@@ -539,21 +541,25 @@ collapsed:: true
 				- 一个特殊分区，以硬盘代替内存
 				- 当内存使用满的时候，可以将一部分数据写到swap分区
 	- ## 文件压缩
+	  collapsed:: true
 		- ### tar
-- 主要针对的文件是lucky.tar.gz
-- 解压缩
-	- tar -zx(解压)v(过程)f(文件) lucky.tar.gz
-- 压缩
-	- tar -zc(压缩)f(文件) tomcat.tar.gz(压缩后的名字) aptche-tomcat-7.0.61(源文件)
-	- tar zxf tomcat.tar.gz -C /opt/
-		- -C 指定解压缩的文件目录
-### zip和unzip
-- 安装
-	- yum install zip unzip -y
-- 压缩
-	- zip -r tomcat.zip apache-tomcat-7.0.61
-- 解压缩
-	- unzip tomcat.zip
+		  collapsed:: true
+			- 主要针对的文件是lucky.tar.gz
+			- 解压缩
+				- tar -zx(解压)v(过程)f(文件) lucky.tar.gz
+			- 压缩
+				- tar -zc(压缩)f(文件) tomcat.tar.gz(压缩后的名字) aptche-tomcat-7.0.61(源文件)
+				- tar zxf tomcat.tar.gz -C /opt/
+					- -C 指定解压缩的文件目录
+		- ### zip和unzip
+		  collapsed:: true
+			- 安装
+			  collapsed:: true
+				- yum install zip unzip -y
+			- 压缩
+				- zip -r tomcat.zip apache-tomcat-7.0.61
+			- 解压缩
+				- unzip tomcat.zip
 # Linux的网络信息
 ## 主机名称
 - 临时修改
