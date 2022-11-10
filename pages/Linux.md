@@ -816,38 +816,38 @@ collapsed:: true
 					- chmod 664 lucky4    -→ (rw-rw-r)
 					- ![image 22.png](../assets/image_22_1668097196468_0.png)
 # 管道与重定向
-# 管道
-	- 将前面命令的结果作为参数传递给后面的命令
-	- grep
-		- 强大的文本搜索工具
-		- cat profile | grep if
-		- ls / |grep ^t
-	- ## 重定向
-- 改变数据传输的位置，方向
-- 0 in 1 out 2 err
-	- ls / 1 > lucky 标准输出
-	- ls / > 标准输出
-	- ls abcd 2 > lucky 错误输出
-- `> 替换 >> 追加`
-	- ls / 1 >> lucky
-	- ls / 1 > lucky
-- 结合使用
-	- ls /etc/abc > lucky 2 >&1
-	- ls /etc/abc >> lucky 2 >&1
-- 信息黑洞
-	- ls /etc/abc >> /dev/null 2>&1
+	- ## 管道
+		- 将前面命令的结果作为参数传递给后面的命令
+		- grep
+			- 强大的文本搜索工具
+			- cat profile | grep if
+			- ls / |grep ^t
+		- ## 重定向
+			- 改变数据传输的位置，方向
+			- 0 in 1 out 2 err
+				- ls / 1 > lucky 标准输出
+				- ls / > 标准输出
+				- ls abcd 2 > lucky 错误输出
+			- `> 替换 >> 追加`
+				- ls / 1 >> lucky
+				- ls / 1 > lucky
+			- 结合使用
+				- ls /etc/abc > lucky 2 >&1
+				- ls /etc/abc >> lucky 2 >&1
+			- 信息黑洞
+				- ls /etc/abc >> /dev/null 2>&1
 # Linux的系统进程
-## 进程信息
-- ps -ef
-	- UID PID PPID C STIME TTY        TIME CMD
-	- UID 所属用户
-	- PID 当前进程编号
-	- PPID 当前进程编号的父进程编号
-- ps -ef | grep redis
-- ps -aux
-	- 所有信息
-- ps -aux --sort -pcpu
-- top
+	- ## 进程信息
+		- ps -ef
+			- UID PID PPID C STIME TTY        TIME CMD
+			- UID 所属用户
+			- PID 当前进程编号
+			- PPID 当前进程编号的父进程编号
+		- ps -ef | grep redis
+		- ps -aux
+			- 所有信息
+		- ps -aux --sort -pcpu
+	- top
 - 当前服务器内存使用率
 ## 后台进程
 - 只需要在命令的后面添加一个&符号
