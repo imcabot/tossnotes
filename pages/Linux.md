@@ -561,21 +561,23 @@ collapsed:: true
 			- 解压缩
 				- unzip tomcat.zip
 # Linux的网络信息
-## 主机名称
-- 临时修改
-	- hostname school
-- 长久修改
-	- vi /etc/hostname
-## DNS解析
-- 域名解析服务
-- 可以将域名转换为IP地址
-- DNS域名劫持
-	- windows -→ C:\Windows\System32\drivers\etc\hosts
-	- 123.56.138.186 www.baidu.com
-- 修改主机域名
-	- vi /etc/host
-	- 将来我们需要把所有的虚拟机都配置hosts文件
-	- 192.168.31.101 bd1601
+	- ## 主机名称
+	  collapsed:: true
+		- 临时修改
+			- hostname school
+		- 长久修改
+			- vi /etc/hostname
+	- ## DNS解析
+	  collapsed:: true
+		- 域名解析服务
+		- 可以将域名转换为IP地址
+		- DNS域名劫持
+			- windows -→ C:\Windows\System32\drivers\etc\hosts
+			- 123.56.138.186 www.baidu.com
+		- 修改主机域名
+			- vi /etc/host
+			- 将来我们需要把所有的虚拟机都配置hosts文件
+			- 192.168.31.101 bd1601
 ## 网络相关命令
 - ipconfig
 	- 查看当前网卡的配置信息
