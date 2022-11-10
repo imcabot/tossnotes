@@ -610,12 +610,14 @@ collapsed:: true
 			- 那么我们可以通过这个唯一定位标志指定的资源
 			- curl -X GET http://www.baidu.com
 	- ## 防火墙
+	  collapsed:: true
 		- 防火墙技术是通过邮寄结合各类用于安全管理与筛选的软件和硬件设备，帮助计算网络于其内、外网之间构建一道相对隔绝的保护屏障，以保护用户资料与信息安全性的一种技术
 		- 在centos7+中，使用firewalld代替以前的iptables；
 		- ![image 13.png](../assets/image_13_1668097073394_0.png)
 		- 开启一个端口的正确操作
 		- ![image 14.png](../assets/image_14_1668097082257_0.png)
 	- ## 加密算法
+	  collapsed:: true
 		- ### 不可逆加密算法
 		  collapsed:: true
 			- ![image 15.png](../assets/image_15_1668097096114_0.png)
@@ -655,6 +657,7 @@ collapsed:: true
 			- 应用场景
 				- HTTP（ssl）证书里制作、CRS请求证书、金融通信加密、蓝牙等硬件信息加密配对传输、关键的登录信息验证。
 	- ## 主机间相互免密钥
+	  collapsed:: true
 		- 可以通过ssh命令免密钥链接到其他的主机
 		- 如果是第一次简历连接，需要输入yes
 		  collapsed:: true
@@ -662,6 +665,7 @@ collapsed:: true
 			- 在访问地址的时候如果没有收录到known_hosts文件中，就需要输入yes
 			- 如果以前收录到known_hosts文件中，直接输入密码即可
 		- 需要输入密码
+		  collapsed:: true
 			- 生成密钥
 				- ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
 				- ![image 18.png](../assets/image_18_1668097131667_0.png)
@@ -669,18 +673,19 @@ collapsed:: true
 			- 这个密钥要放在 ~/.ssh/authorized_keys
 				- ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.188.101
 				- ![image 19.png](../assets/image_19_1668097140568_0.png)
-- 相互免密钥工作流程
-- ## 主机名与Host校验
-- ![image 20.png](../assets/image_20_1668097153262_0.png)
-- 错误原因
-- Cannot determine realm for numeric host
-- 解决方案1--本次
-	- ssh -v -O GSSAPIAuthentication=no root@192.168.188.101
-- 解决方案2--所有
-	- 修改/etc/ssh/ssh_config文件的配置，以后则不会再出现此问题
-	- 在最后添加
-	- StricHostKeyChecking no
-	  UserKnownHostFile /dev/null
+		- 相互免密钥工作流程
+	- ## 主机名与Host校验
+	  collapsed:: true
+		- ![image 20.png](../assets/image_20_1668097153262_0.png)
+		- 错误原因
+			- Cannot determine realm for numeric host
+		- 解决方案1--本次
+			- ssh -v -O GSSAPIAuthentication=no root@192.168.188.101
+		- 解决方案2--所有
+			- 修改/etc/ssh/ssh_config文件的配置，以后则不会再出现此问题
+			- 在最后添加
+			- StricHostKeyChecking no
+			  UserKnownHostFile /dev/null
 # 日期与时间
 ## 时间命令
 - date
