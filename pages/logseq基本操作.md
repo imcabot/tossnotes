@@ -27,4 +27,3 @@
 			  2. 删除选中块：Esc后选中Block，按Backspace/Delete键
 			- 移动：移动到当前Block起始/末尾 「Ctrl + ⬅️/➡️」
 			- 按下「Ctrl +Z 」撤销，按下「Ctrl +Shift + Z 」恢复
-	-
