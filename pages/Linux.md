@@ -87,7 +87,7 @@
 	- 使用NAT模式，就是让虚拟系统借助NAT(网络地址转换）功能，通过宿主机器所在的网络来访问公网。
 	- NAT模式下的虚拟系统的TCP/IP配置信息是由VMnet8(NAT)虚拟网络的DHCP服务器提供的
 	- 虚拟系统也就无法和本局域网中的其他真实主机进行通讯
-	- ![image(3).png](../assets/image(3)_1668088906605_0.png)
+	- ![image 6.png](../assets/image_6_1668096774807_0.png)
 ## 软件分类
 - 应用软件
 	- 就是为了实现某些业务功能
@@ -116,16 +116,14 @@
 		- 完全开源免费
 		- 不要使用最新版的CentOS
 	- 主要用于服务器版本
-	-
+	- ![image 7.png](../assets/image_7_1668096791190_0.png)
 - Debain（免费）
 	- Ubuntu
 		- 视窗界面良好的Linux系统
 		- 一些主流的软件都支持Ubuntu 系统
-		  
-		      ![image.png](https://flowus.cn/preview/9f00e65c-3d10-4434-9594-9895fe8f341d)
-## Linux下载
-
-![image.png](https://flowus.cn/preview/7dbc82dc-4c34-45d1-9885-86acfbbb03a7)
+		- ![image 8.png](../assets/image_8_1668096803744_0.png)
+- ## Linux下载
+- ![image 9.png](../assets/image_9_1668096816355_0.png)
 - 官网
   
   [linux.org](https://linux.org)
