@@ -4,9 +4,9 @@
   
     [软件篇](https://flowus.cn/6f486e8a-a0f1-401a-98c8-f41b11c107a5)
   
-    [浏览器首页篇](https://flowus.cn/908927e6-058b-4e77-9284-57cde68530c7)
+    [浏览器首页篇]
   
-    [硬件篇](https://flowus.cn/4fe97b48-6654-4678-9fd8-9ba6ea0452b3)
+    [硬件篇]
   
   [[系统篇]] 
   
