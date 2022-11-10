@@ -670,9 +670,8 @@
 - 修改用户的组
 	- usermod -g lucky schoolboy（主组）
 	- usermod -G lucky schools（附属组）
-## 权限
-
-![image.png](https://flowus.cn/preview/c0eba84c-bd1b-4b79-9736-01214a8e2c98)
+- ## 权限
+- ![image 21.png](../assets/image_21_1668097187503_0.png)
 - 查看文件的权限
 	- -rw-r--r--,root root 3384 Nov 11 23:51 install,log,syslog
 	- 三组权限，每组三个字母
@@ -700,8 +699,7 @@
 		- chmod ugo+rw lucky4
 		- （权限RWX分别对应数字4 2 1 5=4+0+1 r-w)
 			- chmod 664 lucky4    -→ (rw-rw-r)
-			  
-			        ![image.png](https://flowus.cn/preview/36367cb5-f292-4090-a47c-8628f8274316)
+			- ![image 22.png](../assets/image_22_1668097196468_0.png)
 # 管道与重定向
 # 管道
 - 将前面命令的结果作为参数传递给后面的命令
@@ -715,7 +713,7 @@
 	- ls / 1 > lucky 标准输出
 	- ls / > 标准输出
 	- ls abcd 2 > lucky 错误输出
-- > 替换 >> 追加
+- ``> 替换 >> 追加
 	- ls / 1 >> lucky
 	- ls / 1 > lucky
 - 结合使用
