@@ -561,6 +561,7 @@ collapsed:: true
 			- 解压缩
 				- unzip tomcat.zip
 # Linux的网络信息
+collapsed:: true
 	- ## 主机名称
 	  collapsed:: true
 		- 临时修改
@@ -687,13 +688,13 @@ collapsed:: true
 			- StricHostKeyChecking no
 			  UserKnownHostFile /dev/null
 # 日期与时间
-## 时间命令
-- date
-- 修改时间
-	- date -s 11:11:11
-	- date -s 2022-11-11
-	- date -s 2022-11-11 11:11:11
-## 时间自动同步
+	- ## 时间命令
+		- date
+		- 修改时间
+			- date -s 11:11:11
+			- date -s 2022-11-11
+			- date -s 2022-11-11 11:11:11
+	- ## 时间自动同步
 - 自动同步时间
 	- yum install ntp -y
 	- ntpdate cn.ntp.org.cn
