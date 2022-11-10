@@ -509,19 +509,22 @@ collapsed:: true
 					- 3,8s/abc/lucky/g
 				- 替换全文
 					- g/abc/s//lucky/g
-## 计算机间的数据传输
-### Windows- Linux
-- lrzsz
-	- 安装
-		- yum install lrzsz -y
-	- rz
-		- 将文件从Windows上传到Linux
-	- sz
-		- 将文件从Linux传输到Windows
-- xftp
-	- 较为通用的文件传输方式
-### Linux- Linux
-- scp 源文件地址(source) 目标数据地址(target)
+	- ## 计算机间的数据传输
+		- ### Windows- Linux
+		  collapsed:: true
+			- lrzsz
+			  collapsed:: true
+				- 安装
+					- yum install lrzsz -y
+				- rz
+					- 将文件从Windows上传到Linux
+				- sz
+					- 将文件从Linux传输到Windows
+			- xftp
+			  collapsed:: true
+				- 较为通用的文件传输方式
+		- ### Linux- Linux
+			- scp 源文件地址(source) 目标数据地址(target)
 ### 文件大小
 - 分区信息
 	- df -h
