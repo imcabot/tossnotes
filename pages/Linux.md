@@ -216,16 +216,13 @@ collapsed:: true
 	- ## 万事万物皆文件
 	  collapsed:: true
 		- 文件系统
-		  collapsed:: true
 			- 操作系统如何管理文件，内部定义了一些规则或者定义
 		- 所以在Linux中的所有东西都是以文件的方式进行操作
 		- 在Linux中，文件的访问和Windows的不一样，Windows依靠的是盘符进行访问
 		- Linux维护者一个树状结构的文件模型
-		  collapsed:: true
 			- 只有一个根节点，它的名字叫做/
 			- 一个节点上可以有多个子节点
 		- 查找文件的方式
-		  collapsed:: true
 			- 相对路径
 				- 以当前路径为基准点，查找其他资源
 				- vi ../etc/sysconfig/network
@@ -234,7 +231,6 @@ collapsed:: true
 				- vi /etc/sysconfig/network
 			- 日常使用中，只要找到路径即可，但是如果是一些配置文件，尽量写绝对路径
 		- 可以随意的挂载磁盘
-		  collapsed:: true
 			- ```Shell
 			  mount /dev/disk1 /usr/dowload
 			  disk1 1T
@@ -427,7 +423,6 @@ collapsed:: true
 	  collapsed:: true
 		- ![image 11.png](../assets/image_11_1668097029548_0.png)
 		- ### 打开文件
-		  collapsed:: true
 			- 正常打开
 				- vi profile
 			- 打开问价，并将光标置于第8行
@@ -438,7 +433,6 @@ collapsed:: true
 			- 打开指定搜索单词的位置
 			- vi +/if profile
 		- ### 三种模式
-		  collapsed:: true
 			- 编辑（命令）模式
 				- 编辑模式中，每一个按键都有其他的作用
 			- 输入模式
@@ -446,10 +440,8 @@ collapsed:: true
 			- 末行（命令行）模式
 				- 我们可以直接在VI中输入特定的命令
 		- ### 三种模式切换
-		  collapsed:: true
 			- ![image 12.png](../assets/image_12_1668097045962_0.png)
 			- 编辑模式>输入模式
-			  collapsed:: true
 				- a 追加数据
 				- i 在当前位置插入数据库
 				- I 行首
