@@ -239,7 +239,6 @@ collapsed:: true
 			  
 			  ```
 	- ## Linux文件目录
-	  collapsed:: true
 		- ![image 10.png](../assets/image_10_1668097007578_0.png)
 		- bin(可执行文件）
 		  collapsed:: true
@@ -316,7 +315,6 @@ collapsed:: true
 		  collapsed:: true
 			- 这个目录存放着在不断扩充着的东西，我们习惯将那些经常被修改的目录放在这个目录下。包括各种日志文件
 	- ## Linux的文件操作
-	  collapsed:: true
 		- cd 
 		  collapsed:: true
 			- 改变当前工作目录
@@ -418,7 +416,6 @@ collapsed:: true
 			- find要查找的范围 -name 名字
 			- find /etc -name profile
 	- ## VI和VIM编辑器
-	  collapsed:: true
 		- ![image 11.png](../assets/image_11_1668097029548_0.png)
 		- ### 打开文件
 			- 正常打开
@@ -495,9 +492,7 @@ collapsed:: true
 				- 替换全文
 					- g/abc/s//lucky/g
 	- ## 计算机间的数据传输
-	  collapsed:: true
 		- ### Windows- Linux
-		  collapsed:: true
 			- lrzsz
 			  collapsed:: true
 				- 安装
@@ -544,7 +539,6 @@ collapsed:: true
 			- 解压缩
 				- unzip tomcat.zip
 # Linux的网络信息
-collapsed:: true
 	- ## 主机名称
 	  collapsed:: true
 		- 临时修改
