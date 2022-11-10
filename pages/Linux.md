@@ -640,33 +640,35 @@ collapsed:: true
 			- 应用场景
 				- 登录信息用户名和密码加密、传输加密、指令加密
 		- ### 非对称算法
+		  collapsed:: true
 			- ![image 17.png](../assets/image_17_1668097120213_0.png)
-- Asymmetric Key Encryption
-- 非对称加密算法需要一对密钥（两个密钥）：
-	- 公开密钥（publickey）和私有密钥（privatekey）（简称公钥、私钥）
-	- 公开密钥和私有密钥生成时是一对
-	- 用公钥加密只能是对应的私钥解密，同理用私钥加密只能用对应的公钥解密
-- 代表性算法叫做 RSA、ECC、Diffie- Hellman、EI Gamal、DSA（数字签名用）
-- 优点
-	- 安全性高（几乎很难破解）
-- 缺点
-	- 加解密相对速度慢、密钥长、计算量大、效率低
-- 应用场景
-	- HTTP（ssl）证书里制作、CRS请求证书、金融通信加密、蓝牙等硬件信息加密配对传输、关键的登录信息验证。
-## 主机间相互免密钥
-- 可以通过ssh命令免密钥链接到其他的主机
-- 如果是第一次简历连接，需要输入yes
-	- 在~/.ssh/known_hosts文件记录了以前访问地址（ip hostname）的信息
-	- 在访问地址的时候如果没有收录到known_hosts文件中，就需要输入yes
-	- 如果以前收录到known_hosts文件中，直接输入密码即可
-- 需要输入密码
-	- 生成密钥
-		- ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
-		- ![image 18.png](../assets/image_18_1668097131667_0.png)
-	- 如果想密钥登录哪台主机，只需要把自己的公钥传递给对方主机
-	- 这个密钥要放在 ~/.ssh/authorized_keys
-		- ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.188.101
-		- ![image 19.png](../assets/image_19_1668097140568_0.png)
+			- Asymmetric Key Encryption
+			- 非对称加密算法需要一对密钥（两个密钥）：
+				- 公开密钥（publickey）和私有密钥（privatekey）（简称公钥、私钥）
+				- 公开密钥和私有密钥生成时是一对
+				- 用公钥加密只能是对应的私钥解密，同理用私钥加密只能用对应的公钥解密
+			- 代表性算法叫做 RSA、ECC、Diffie- Hellman、EI Gamal、DSA（数字签名用）
+			- 优点
+				- 安全性高（几乎很难破解）
+			- 缺点
+				- 加解密相对速度慢、密钥长、计算量大、效率低
+			- 应用场景
+				- HTTP（ssl）证书里制作、CRS请求证书、金融通信加密、蓝牙等硬件信息加密配对传输、关键的登录信息验证。
+	- ## 主机间相互免密钥
+		- 可以通过ssh命令免密钥链接到其他的主机
+		- 如果是第一次简历连接，需要输入yes
+		  collapsed:: true
+			- 在~/.ssh/known_hosts文件记录了以前访问地址（ip hostname）的信息
+			- 在访问地址的时候如果没有收录到known_hosts文件中，就需要输入yes
+			- 如果以前收录到known_hosts文件中，直接输入密码即可
+		- 需要输入密码
+			- 生成密钥
+				- ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+				- ![image 18.png](../assets/image_18_1668097131667_0.png)
+			- 如果想密钥登录哪台主机，只需要把自己的公钥传递给对方主机
+			- 这个密钥要放在 ~/.ssh/authorized_keys
+				- ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.188.101
+				- ![image 19.png](../assets/image_19_1668097140568_0.png)
 - 相互免密钥工作流程
 - ## 主机名与Host校验
 - ![image 20.png](../assets/image_20_1668097153262_0.png)
