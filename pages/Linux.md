@@ -213,6 +213,7 @@ collapsed:: true
 			- 如果是单词一般加--
 			- 如果是字母或缩写一般加-
 # Linux的文件系统
+collapsed:: true
 	- ## 万事万物皆文件
 		- 文件系统
 			- 操作系统如何管理文件，内部定义了一些规则或者定义
@@ -537,6 +538,7 @@ collapsed:: true
 			- 解压缩
 				- unzip tomcat.zip
 # Linux的网络信息
+collapsed:: true
 	- ## 主机名称
 		- 临时修改
 			- hostname school
@@ -801,3 +803,4 @@ collapsed:: true
 			- nohup ping baidu.com >> baidu 2>&1 &
 	- ## 杀死进程
 		- kill -9 17599
+-
