@@ -123,26 +123,26 @@
 				- ![image 8.png](../assets/image_8_1668096803744_0.png)
 	- ## Linux下载
 		- ![image 9.png](../assets/image_9_1668096816355_0.png)
-			- 官网
+		- 官网
+		  
+		  [linux.org](https://linux.org)
+			- 下载页面
 			  
-			  [linux.org](https://linux.org)
-				- 下载页面
-				  
-				    [linux.org](https://linux.org/pages/download/)
-				- centos下载地址
-				  
-				    [Download](https://www.centos.org/download/)
+			    [linux.org](https://linux.org/pages/download/)
+			- centos下载地址
+			  
+			    [Download](https://www.centos.org/download/)
 # 虚拟机安装于配置
-## 虚拟化技术
-- 更好的利用计算机闲置的资源
-- 我们可以在计算机中虚拟出多台帮助我们执行程序或者业务
-- 虚拟机的各种组成理论上和真实主机是一样的
-- 如果要使用这种技术只需要安装对应的软件即可
-	- Virtualbox
-	- VirtualMachine
-- ## docker 配置CentOS环境
-- DONE docker配置CentOS环境
-- [[docker配置centos环境]]
+	- ## 虚拟化技术
+		- 更好的利用计算机闲置的资源
+		- 我们可以在计算机中虚拟出多台帮助我们执行程序或者业务
+		- 虚拟机的各种组成理论上和真实主机是一样的
+		- 如果要使用这种技术只需要安装对应的软件即可
+			- Virtualbox
+			- VirtualMachine
+	- ## docker 配置CentOS环境
+		- DONE docker配置CentOS环境
+		- [[docker配置centos环境]]
 # linux的命令
 ## 命令学习法
 - Linux命令与参数之间必须用空格隔开
