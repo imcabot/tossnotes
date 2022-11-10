@@ -5,6 +5,6 @@
 	- [[软件篇]]
 	- [[硬件篇]]
 	- [[浏览器首页篇]]
-- {{renderer :tocgen}}
+- {{renderer :tocgen,* }}
 -
 -
