@@ -9,12 +9,15 @@
   ![大图预览](https://cdn.flowus.cn/oss/9b0fae81-353c-4803-b2b4-69d64e60e4ec/image.png?filename=image.png&time=1668074673&token=b5b84217a23f70cb9df688ff320b5937)
 ## 计算机硬件组成
 - 输入设备
+  collapsed:: true
 	- 输入设备用来将人们人们熟悉的信息形式转换为机器能够识别的信息形式
 		- 常见的有键盘，鼠标等
 - 输出设备
+  collapsed:: true
 	- 输出设备可以将机器运算结果转换为人们熟悉的信息形式
 	- 打印机输出，显示器输出等
 - 存储器
+  collapsed:: true
 	- 存储器用来存放数据和程序
 	- RAM(random access memory) 即随机存储 内存：
 		- 速度快，容量小
