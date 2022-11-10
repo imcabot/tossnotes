@@ -44,8 +44,8 @@
 		- 凸起的地方代表数字1（磁化为1），凹的地方代表数字0
 		- 硬盘可以以二进制来存储表示文字、图片等信息。
 		- 硬盘可以根据转速来判断硬盘的好坏 7200转/分 100-200M/s
-		  
-		    ![image.png](https://flowus.cn/preview/6b0b0b41-5826-4daa-af50-3b0259f4566d)
+		- ![大图预览](https://cdn.flowus.cn/oss/f107f0ee-c8e3-4dc5-857f-e341812a41b6/image.png?filename=image.png&time=1668088326&token=2633ae073345151cf063ab57f304c10d)
+		- ![大图预览](https://cdn.flowus.cn/oss/f107f0ee-c8e3-4dc5-857f-e341812a41b6/image.png?filename=image.png&time=1668088326&token=2633ae073345151cf063ab57f304c10d)
 	- 固态硬盘（Solid State Disk,SSD)
 	- 固态硬盘通过内存颗粒（固态电子存储芯片阵列）来存储数据
 	  
