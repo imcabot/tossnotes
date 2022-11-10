@@ -735,6 +735,7 @@ collapsed:: true
 		  
 		  ```
 # 用户-组-权限
+collapsed:: true
 	- ## 用户
 	  collapsed:: true
 		- 新增用户
@@ -781,43 +782,47 @@ collapsed:: true
 			- usermod -g lucky schoolboy（主组）
 			- usermod -G lucky schools（附属组）
 	- ## 权限
-	- ![image 21.png](../assets/image_21_1668097187503_0.png)
-- 查看文件的权限
-	- -rw-r--r--,root root 3384 Nov 11 23:51 install,log,syslog
-	- 三组权限，每组三个字母
-		- r：读取权限
-		- w：写入权限
-		- x：执行权限
-		- -：没有权限
-	- root:所属用户（属主）
-	- root:所属的组（属组）
-- 权限的UGO模型
-	- 权限
-	- 属主的权限：属组的权限：其他的权限
-	- 修改文件的权限可以从rwx和ugo两个方面进行修改
-- 修改文件的权限
-	- 修改文件所属
-		- chown n1 /var/lucky1
-		- chown n1:m1 /var/lucky2
-		- 修改文件夹时，让子目录迭代修改
-			- chown -R n1:m1 school
-		- chgrp m2 lucky3
-			- 当用户的组被修改之后，需要重新登录才能获取新组的权限
-	- 修改文件的rwx
-		- chmod o+w lucky4
-		- chmod ug+rw lucky4
-		- chmod ugo+rw lucky4
-		- （权限RWX分别对应数字4 2 1 5=4+0+1 r-w)
-			- chmod 664 lucky4    -→ (rw-rw-r)
-			- ![image 22.png](../assets/image_22_1668097196468_0.png)
+	  collapsed:: true
+		- ![image 21.png](../assets/image_21_1668097187503_0.png)
+		- 查看文件的权限
+		  collapsed:: true
+			- -rw-r--r--,root root 3384 Nov 11 23:51 install,log,syslog
+			- 三组权限，每组三个字母
+				- r：读取权限
+				- w：写入权限
+				- x：执行权限
+				- -：没有权限
+			- root:所属用户（属主）
+			- root:所属的组（属组）
+		- 权限的UGO模型
+		  collapsed:: true
+			- 权限
+			- 属主的权限：属组的权限：其他的权限
+			- 修改文件的权限可以从rwx和ugo两个方面进行修改
+		- 修改文件的权限
+		  collapsed:: true
+			- 修改文件所属
+				- chown n1 /var/lucky1
+				- chown n1:m1 /var/lucky2
+				- 修改文件夹时，让子目录迭代修改
+					- chown -R n1:m1 school
+				- chgrp m2 lucky3
+					- 当用户的组被修改之后，需要重新登录才能获取新组的权限
+			- 修改文件的rwx
+				- chmod o+w lucky4
+				- chmod ug+rw lucky4
+				- chmod ugo+rw lucky4
+				- （权限RWX分别对应数字4 2 1 5=4+0+1 r-w)
+					- chmod 664 lucky4    -→ (rw-rw-r)
+					- ![image 22.png](../assets/image_22_1668097196468_0.png)
 # 管道与重定向
 # 管道
-- 将前面命令的结果作为参数传递给后面的命令
-- grep
-	- 强大的文本搜索工具
-	- cat profile | grep if
-	- ls / |grep ^t
-## 重定向
+	- 将前面命令的结果作为参数传递给后面的命令
+	- grep
+		- 强大的文本搜索工具
+		- cat profile | grep if
+		- ls / |grep ^t
+	- ## 重定向
 - 改变数据传输的位置，方向
 - 0 in 1 out 2 err
 	- ls / 1 > lucky 标准输出
