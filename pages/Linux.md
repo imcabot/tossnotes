@@ -215,10 +215,12 @@ collapsed:: true
 # Linux的文件系统
 	- ## 万事万物皆文件
 		- 文件系统
+		  collapsed:: true
 			- 操作系统如何管理文件，内部定义了一些规则或者定义
 		- 所以在Linux中的所有东西都是以文件的方式进行操作
 		- 在Linux中，文件的访问和Windows的不一样，Windows依靠的是盘符进行访问
 		- Linux维护者一个树状结构的文件模型
+		  collapsed:: true
 			- 只有一个根节点，它的名字叫做/
 			- 一个节点上可以有多个子节点
 		- 查找文件的方式
@@ -242,27 +244,38 @@ collapsed:: true
 			  
 			  ```
 	- ## Linux文件目录
+	  collapsed:: true
 		- ![image 10.png](../assets/image_10_1668097007578_0.png)
 		- bin(可执行文件）
+		  collapsed:: true
 			- bin是Binary的缩写，这个目录存放着最经常使用的命令
 		- boot（引导分区）
+		  collapsed:: true
 			- 这里存放的是启动Linux时使用的一核心文件，包括一些连接文件以及镜像文件
 		- dev（设备信息）
+		  collapsed:: true
 			- dev时Device（设备）的缩写，该目录下存放的是Linux的外部设备，在Linux中访问设备的方式和访问文件的方式是相同的
 		- etc（配置文件目录）
+		  collapsed:: true
 			- 这个目录用来存放所有的系统管理所需要的配置文件和子目录
 		- home（家目录）
+		  collapsed:: true
 			- 用户的主目录，在Linux中，每个用户都有一个自己的目录，一般该目录名是以账户的账号命名
 		- lib（类库）
+		  collapsed:: true
 			- 这个目录存放着系统最基本的动态连接共享库，起作用类似于windows里的DLL文件。几乎所有的应用程序都需要用到这些共享库
 		- lie64（类库）
 		- media（多媒体）
+		  collapsed:: true
 			- Linux系统会自动识别一些设备，例如u盘、光驱等等，当识别后，Linux会把识别的设备挂在道这个目录下
 		- mnt（一般默认挂在点）
+		  collapsed:: true
 			- 系统提供该目录是为了让用户临时挂载别的文件系统的，我们可以将光驱挂载在/mnt/上，然后进入该目录就可以查看光驱里的内容了
 		- opt（应用软件安装目录）
+		  collapsed:: true
 			- 这是给主机额外安装软件所摆放的目录。比如安装一个ORACLE数据库就可以放到这个目录下。默认是空的
 		- proc（进程信息）
+		  collapsed:: true
 			- 这个目录是一个虚拟的目录，他是系统内存的映射，我们可以通过方阿文这个目录来获取系统信息。
 			- 这个目录的内容不在硬盘上而是在内存里，我们可以直接修改里面的某些文件，比如可以通过下面的命令来屏蔽主机的ping命令，是别人无法ping你的机器。
 			  
@@ -270,35 +283,49 @@ collapsed:: true
 			  echo 1 > /proc/sys/net/ipv4/icmp_echo_ignore_all
 			  ```
 		- root（root用户的家目录）
+		  collapsed:: true
 			- 该目录为系统管理员，也称作超级权限者的用户主目录
 		- run（运行时的一些系统常量，系统变量）
+		  collapsed:: true
 			- 是一个临时文件系统，存储系统启动以来的信息。当系统重启时，这个目录下的文件应该被删掉或者清除。如果你的系统上有/var/run 目录，应该让他指向run
 		- sbin（管理员可执行的命令）
+		  collapsed:: true
 			- s就是Super User的意思，这里存放的是系统管理员使用的系统管理程序
 		- lost+found
+		  collapsed:: true
 			- 这个目录一般情况下是空的，当系统非法关机后，这里就存放了一些文件
 		- src
+		  collapsed:: true
 			- 该目录存放一些服务启动后需要提取的数据
 		- sys
+		  collapsed:: true
 			- 这是Linux2.6内核的一个很大的变化。该目录下安装了2.6内核中新出现的一个文件系统sysfs
 			- sysfs文件系统集成了下面3种文件系统的信息：针对进程信息的proc文件系统、针对设备的devfs文件系统以及针对伪终端的devpts文件系统。该文件系统是内核设备树的一个直观反映。
 			- 当一个内核对象被创建的时候，对应的文件和目录也在内核对象子系统中被创建。
 		- temp
+		  collapsed:: true
 			- 这个目录是用来存放一些临时文件的
 		- usr
+		  collapsed:: true
 			- 这是一个非常重要的目录，用户的很多应用程序和文件都放在这个目录下，类似于Windows下的program files目录
 		- /usr/bin
+		  collapsed:: true
 			- 系统用户使用的应用程序
 		- /usr/sbin
+		  collapsed:: true
 			- 超级用户使用的比较高级的管理程序和系统守护程序
 		- /usr/src
+		  collapsed:: true
 			- 内核源代码默认的放置目录
 		- /var
+		  collapsed:: true
 			- 这个目录存放着在不断扩充着的东西，我们习惯将那些经常被修改的目录放在这个目录下。包括各种日志文件
 	- ## Linux的文件操作
-		- cd
+		- cd 
+		  collapsed:: true
 			- 改变当前工作目录
 		- ls ll
+		  collapsed:: true
 			- 显示出指定目录下的所有文件
 			- 文件的类型
 				- -普通文件
@@ -306,13 +333,16 @@ collapsed:: true
 				- l软连接
 			- -rw-r--r--,root root 3384 Nov 11 23:51 install,log,syslog
 		- mkdir
+		  collapsed:: true
 			- 创建文件目录
 			- mkdir -p a/b/c/d/e/f会自动创建文件父目录
 			- mkdir -p lucky/{1234}ls 一次可以创建多个子目录
 		- rmdir
+		  collapsed:: true
 			- 删除空文件夹
 			- 可以安全的删除文件目录
 		- cp
+		  collapsed:: true
 			- 拷贝文件或者文件目录
 			- cp 源文件 目标目录
 				- cp abcd /opt
@@ -321,11 +351,13 @@ collapsed:: true
 				- cp -r lucky /opt
 				- 拷贝文件夹下所有的内容
 		- mv
+		  collapsed:: true
 			- 移动文件或文件夹
 				- mv a1 /opt
 			- 修改文件名称
 				- mv a abcd
 		- rm
+		  collapsed:: true
 			- 删除文件
 				- rm install.log
 				- rm -f install.log（-f 为 强制删除）
