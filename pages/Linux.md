@@ -510,6 +510,7 @@ collapsed:: true
 				- 替换全文
 					- g/abc/s//lucky/g
 	- ## 计算机间的数据传输
+	  collapsed:: true
 		- ### Windows- Linux
 		  collapsed:: true
 			- lrzsz
@@ -524,17 +525,21 @@ collapsed:: true
 			  collapsed:: true
 				- 较为通用的文件传输方式
 		- ### Linux- Linux
+		  collapsed:: true
 			- scp 源文件地址(source) 目标数据地址(target)
-### 文件大小
-- 分区信息
-	- df -h
-- 指定文件目录大小
-	- du -h --max-depth=1 apache.tomcat-7.0.61
-- swap
-	- 一个特殊分区，以硬盘代替内存
-	- 当内存使用满的时候，可以将一部分数据写到swap分区
-## 文件压缩
-### tar
+		- ### 文件大小
+			- 分区信息
+			  collapsed:: true
+				- df -h
+			- 指定文件目录大小
+			  collapsed:: true
+				- du -h --max-depth=1 apache.tomcat-7.0.61
+			- swap
+			  collapsed:: true
+				- 一个特殊分区，以硬盘代替内存
+				- 当内存使用满的时候，可以将一部分数据写到swap分区
+	- ## 文件压缩
+		- ### tar
 - 主要针对的文件是lucky.tar.gz
 - 解压缩
 	- tar -zx(解压)v(过程)f(文件) lucky.tar.gz
