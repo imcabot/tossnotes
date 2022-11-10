@@ -1,4 +1,4 @@
-- {{renderer :tocgen,*,3,h}}
+- {{renderer :tocgen,*,4,h}}
 -
 - [Linux-54Linux网络命令-相互免秘钥_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV16Q4y1y7xS?p=54&vd_source=623bd6d17db3c63ea063661fc62f1ec6)
 - {{video https://www.bilibili.com/video/BV16Q4y1y7xS?p=54&vd_source=623bd6d17db3c63ea063661fc62f1ec6}}
@@ -400,7 +400,7 @@
 	- 按下 ：
 - 末行模式>编辑模式
 	- 按下esc
-### 编辑模式
+	- ### 编辑模式
 - G 最后一行
 - gg 跳转到第一行
 - 数字gg 跳转到第数字行
