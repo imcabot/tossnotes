@@ -141,11 +141,9 @@
 - 如果要使用这种技术只需要安装对应的软件即可
 	- Virtualbox
 	- VirtualMachine
-## docker 配置CentOS环境
-
-//TODO
-
-[docker配置centos环境](https://flowus.cn/a6e5182e-1977-4446-82e8-4b416f6a7af8)
+- ## docker 配置CentOS环境
+- TODO docker
+- [docker配置centos环境](https://flowus.cn/a6e5182e-1977-4446-82e8-4b416f6a7af8)
 # linux的命令
 ## 命令学习法
 - Linux命令与参数之间必须用空格隔开

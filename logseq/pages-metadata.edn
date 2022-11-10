@@ -46,7 +46,7 @@
   :block/updated-at 1668076531256}
  {:block/name "linux",
   :block/created-at 1668079476175,
-  :block/updated-at 1668088932694}
+  :block/updated-at 1668096819124}
  {:block/name "logseq",
   :block/created-at 1668081320564,
   :block/updated-at 1668081320564}
@@ -56,6 +56,9 @@
  {:block/name "nov 10th, 2022",
   :block/created-at 1668076327762,
   :block/updated-at 1668083346701}
+ {:block/name "nov 11th, 2022",
+  :block/created-at 1668096000557,
+  :block/updated-at 1668096000557}
  {:block/name "now",
   :block/created-at 1668076531256,
   :block/updated-at 1668076531256}
