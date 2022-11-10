@@ -37,9 +37,12 @@
  {:block/name "linux",
   :block/created-at 1668079476175,
   :block/updated-at 1668080438267}
+ {:block/name "logseq",
+  :block/created-at 1668081320564,
+  :block/updated-at 1668081320564}
  {:block/name "nov 10th, 2022",
   :block/created-at 1668076327762,
-  :block/updated-at 1668076327762}
+  :block/updated-at 1668083281550}
  {:block/name "now",
   :block/created-at 1668076531256,
   :block/updated-at 1668076531256}
