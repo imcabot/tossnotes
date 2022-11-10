@@ -1,4 +1,5 @@
 - [Linux-54Linux网络命令-相互免秘钥_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV16Q4y1y7xS?p=54&vd_source=623bd6d17db3c63ea063661fc62f1ec6)
+-
 # 计算机硬件软件体系
 ## 冯 诺依曼体系结构
 - 计算机处理的数据和指令一律用二进制数表示
