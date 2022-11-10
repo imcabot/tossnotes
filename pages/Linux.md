@@ -449,16 +449,12 @@ collapsed:: true
 				- o 在当前行后面开启一个新的输入行
 				- O 在当前行上面开启一个新的输入行
 			- 输入模式>编辑模式
-			  collapsed:: true
 				- 按下esc
 			- 编辑模式>末行模式
-			  collapsed:: true
 				- 按下 ：
 			- 末行模式>编辑模式
-			  collapsed:: true
 				- 按下esc
 		- ### 编辑模式
-		  collapsed:: true
 			- G 最后一行
 			- gg 跳转到第一行
 			- 数字gg 跳转到第数字行
@@ -478,10 +474,8 @@ collapsed:: true
 			- r 替换，然后输入一个字符替换
 			- 3r 替换三个
 		- ### 输入模式
-		  collapsed:: true
 			- 按啥是啥
 		- ### 末行模式
-		  collapsed:: true
 			- w 保存
 			- q 退出
 			- ! 强制执行
@@ -807,6 +801,7 @@ collapsed:: true
 					- chmod 664 lucky4    -→ (rw-rw-r)
 					- ![image 22.png](../assets/image_22_1668097196468_0.png)
 # 管道与重定向
+collapsed:: true
 	- ## 管道
 		- 将前面命令的结果作为参数传递给后面的命令
 		- grep
