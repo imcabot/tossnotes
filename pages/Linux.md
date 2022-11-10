@@ -526,23 +526,19 @@
 ## 防火墙
 - 防火墙技术是通过邮寄结合各类用于安全管理与筛选的软件和硬件设备，帮助计算网络于其内、外网之间构建一道相对隔绝的保护屏障，以保护用户资料与信息安全性的一种技术
 - 在centos7+中，使用firewalld代替以前的iptables；
-  
-  ![image.png](https://flowus.cn/preview/61312331-ec84-409b-b8f8-750aa223a807)
+- ![image 13.png](../assets/image_13_1668097073394_0.png)
 - 开启一个端口的正确操作
-  
-  ![image.png](https://flowus.cn/preview/e4769724-3614-4db5-8dce-ae1eb4f48a14)
+- ![image 14.png](../assets/image_14_1668097082257_0.png)
 ## 加密算法
-### 不可逆加密算法
-
-![image.png](https://flowus.cn/preview/a3abd971-3f43-4fde-9d12-50c37fe22b23)
+- ### 不可逆加密算法
+- ![image 15.png](../assets/image_15_1668097096114_0.png)
 - 可以通过数据计算加密后的结果，但是通过结果无法计算出加密数据
 - 应用场景
 	- Hash算法常用在不可还原的密码存储、信息完整性校验
 	- md5算法用于 文档、音视频文件、软件安装包等用新老摘要对比是否一样（接受到的文件是否被修改）
 	- 用户名或者密码加密后数据库存储（数据库大多数不会存储关键信息的明文，就像很多登录功能的忘记密码不能找回，只能重置）
-### 对称加密算法
-
-![image.png](https://flowus.cn/preview/fe2858e7-86a4-4422-9fd4-f6aae86ffd00)
+- ### 对称加密算法
+- ![image 16.png](../assets/image_16_1668097109255_0.png)
 - Sysmetric Key Encryption
 - 代表性算法叫做 DES、3DES、Blowfish、IDEA、RC4、RC5、RC6和AES
 - 特点
@@ -554,9 +550,8 @@
 	- 如果为每个客户都生成不同的密钥，则密钥数量巨大，密钥管理有压力
 - 应用场景
 	- 登录信息用户名和密码加密、传输加密、指令加密
-### 非对称算法
-
-![image.png](https://flowus.cn/preview/4313840f-c918-4919-bcbb-51c47dd10e77)
+- ### 非对称算法
+- ![image 17.png](../assets/image_17_1668097120213_0.png)
 - Asymmetric Key Encryption
 - 非对称加密算法需要一对密钥（两个密钥）：
 	- 公开密钥（publickey）和私有密钥（privatekey）（简称公钥、私钥）
