@@ -228,7 +228,7 @@
   
   ```
 - ## Linux文件目录
--
+- ![image 10.png](../assets/image_10_1668097007578_0.png)
 - bin(可执行文件）
 	- bin是Binary的缩写，这个目录存放着最经常使用的命令
 - boot（引导分区）
@@ -368,9 +368,8 @@
 	- 查找指定的文件
 	- find要查找的范围 -name 名字
 	- find /etc -name profile
-## VI和VIM编辑器
-
-![image.png](https://flowus.cn/preview/681d70a1-3fd1-4410-96f7-e6f511050354)
+- ## VI和VIM编辑器
+- ![image 11.png](../assets/image_11_1668097029548_0.png)
 ### 打开文件
 - 正常打开
 	- vi profile
@@ -388,9 +387,8 @@
 	- 每一个按键按下什么，就向文本中输入什么
 - 末行（命令行）模式
 	- 我们可以直接在VI中输入特定的命令
-### 三种模式切换
-
-![image.png](https://flowus.cn/preview/ebf1fc2b-0739-471b-91cf-ff16e80b8f44)
+- ### 三种模式切换
+- ![image 12.png](../assets/image_12_1668097045962_0.png)
 - 编辑模式>输入模式
 	- a 追加数据
 	- i 在当前位置插入数据库
