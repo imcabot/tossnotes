@@ -215,7 +215,6 @@ collapsed:: true
 # Linux的文件系统
 	- ## 万事万物皆文件
 		- 文件系统
-		  collapsed:: true
 			- 操作系统如何管理文件，内部定义了一些规则或者定义
 		- 所以在Linux中的所有东西都是以文件的方式进行操作
 		- 在Linux中，文件的访问和Windows的不一样，Windows依靠的是盘符进行访问
@@ -223,6 +222,7 @@ collapsed:: true
 			- 只有一个根节点，它的名字叫做/
 			- 一个节点上可以有多个子节点
 		- 查找文件的方式
+		  collapsed:: true
 			- 相对路径
 				- 以当前路径为基准点，查找其他资源
 				- vi ../etc/sysconfig/network
@@ -231,15 +231,16 @@ collapsed:: true
 				- vi /etc/sysconfig/network
 			- 日常使用中，只要找到路径即可，但是如果是一些配置文件，尽量写绝对路径
 		- 可以随意的挂载磁盘
-		- ```Shell
-		  mount /dev/disk1 /usr/dowload
-		  disk1 1T
-		  mount /dev/disk2 /usr/upload
-		  disk2 100T
-		  mount /dev/disk3 /usr/upload/photo
-		  disk3 1P
-		  
-		  ```
+		  collapsed:: true
+			- ```Shell
+			  mount /dev/disk1 /usr/dowload
+			  disk1 1T
+			  mount /dev/disk2 /usr/upload
+			  disk2 100T
+			  mount /dev/disk3 /usr/upload/photo
+			  disk3 1P
+			  
+			  ```
 	- ## Linux文件目录
 		- ![image 10.png](../assets/image_10_1668097007578_0.png)
 		- bin(可执行文件）
