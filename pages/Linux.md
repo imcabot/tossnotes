@@ -688,6 +688,7 @@ collapsed:: true
 			- StricHostKeyChecking no
 			  UserKnownHostFile /dev/null
 # 日期与时间
+collapsed:: true
 	- ## 时间命令
 	  collapsed:: true
 		- date
@@ -723,6 +724,7 @@ collapsed:: true
 			  
 			    **注意**：chronyd服务启动后，不能再用chronyd方式手动同步时间，会报“Fatal error : Another chronyd may already be running”的错误。
 	- ## 命令执行时间统计
+	  collapsed:: true
 		- ```Shell
 		  #!/bin/bash
 		  start=$(date +%s)
@@ -733,45 +735,53 @@ collapsed:: true
 		  
 		  ```
 # 用户-组-权限
-## 用户
-- 新增用户
-	- useradd luckyboy
-	- 会创建同名的组和家目录
-- 设置密码
-	- passwd luckyboy
-- 删除用户
-	- userdel -r luckyboy
-	- 级联删除家目录和组
-- 修改用户信息
-	- usermod -l luckyss luckyls 修改用户名
-		- 家目录和组名称是不会修改的
-	- usermod -L luckyss 锁定用户名
-	- usermod -U luckyss 解锁用户名
-- 常用文件
-	- cat /etc/shadow
-		- 用户名和密码
-	- cat /etc/passwd
-		- 用户名，编号，组编号，家目录，命令，目录
-		- 6.5系统0-499 普通500+
-		- 7.6系统0-999 普通1000+
-- 切换账户
-	- su luckboy
-## 组
-- 创建组
-	- groupadd lucky
-- 删除组
-	- groupdel lucky
-- 修改组名字
-	- groupmod -n school lucky
-- 查看当前用户对应的组
-	- groups
-	- groups schoolboy
-		- 当我们创建用户的时候，会默认创建一个同名的主组
-- 修改用户的组
-	- usermod -g lucky schoolboy（主组）
-	- usermod -G lucky schools（附属组）
-- ## 权限
-- ![image 21.png](../assets/image_21_1668097187503_0.png)
+	- ## 用户
+	  collapsed:: true
+		- 新增用户
+		  collapsed:: true
+			- useradd luckyboy
+			- 会创建同名的组和家目录
+		- 设置密码
+		  collapsed:: true
+			- passwd luckyboy
+		- 删除用户
+		  collapsed:: true
+			- userdel -r luckyboy
+			- 级联删除家目录和组
+		- 修改用户信息
+		  collapsed:: true
+			- usermod -l luckyss luckyls 修改用户名
+				- 家目录和组名称是不会修改的
+			- usermod -L luckyss 锁定用户名
+			- usermod -U luckyss 解锁用户名
+		- 常用文件
+		  collapsed:: true
+			- cat /etc/shadow
+				- 用户名和密码
+			- cat /etc/passwd
+				- 用户名，编号，组编号，家目录，命令，目录
+				- 6.5系统0-499 普通500+
+				- 7.6系统0-999 普通1000+
+		- 切换账户
+		  collapsed:: true
+			- su luckboy
+	- ## 组
+	  collapsed:: true
+		- 创建组
+			- groupadd lucky
+		- 删除组
+			- groupdel lucky
+		- 修改组名字
+			- groupmod -n school lucky
+		- 查看当前用户对应的组
+			- groups
+			- groups schoolboy
+				- 当我们创建用户的时候，会默认创建一个同名的主组
+		- 修改用户的组
+			- usermod -g lucky schoolboy（主组）
+			- usermod -G lucky schools（附属组）
+	- ## 权限
+	- ![image 21.png](../assets/image_21_1668097187503_0.png)
 - 查看文件的权限
 	- -rw-r--r--,root root 3384 Nov 11 23:51 install,log,syslog
 	- 三组权限，每组三个字母
