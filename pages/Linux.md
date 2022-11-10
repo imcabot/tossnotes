@@ -3,6 +3,7 @@
 - [Linux-54Linux网络命令-相互免秘钥_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV16Q4y1y7xS?p=54&vd_source=623bd6d17db3c63ea063661fc62f1ec6)
 - {{video https://www.bilibili.com/video/BV16Q4y1y7xS?p=54&vd_source=623bd6d17db3c63ea063661fc62f1ec6}}
 # 计算机硬件软件体系
+collapsed:: true
 	- ## 冯 诺依曼体系结构
 	  collapsed:: true
 		- 计算机处理的数据和指令一律用二进制数表示
@@ -36,6 +37,7 @@
 				- 运算器主要运行算数运算和逻辑运算，并将中间结果暂存到运算器中
 				- ![image 2.png](../assets/image_2_1668096720671_0.png)
 	- ## 硬盘的分类
+	  collapsed:: true
 		- 硬盘按照存储介质的不同可以分为如下两种
 			- 机械硬盘
 				- 机械硬盘采用磁性碟片来存储数据
@@ -59,6 +61,7 @@
 				- ![image 5.png](../assets/image_5_1668096758434_0.png)
 	- ## 顺序读写与随机读写
 	- ## 网络连接概念
+	  collapsed:: true
 		- IP地址IPADDR
 			- IP地址是一种逻辑地址，用来标识网络中的一个个主机
 				- IP地址=网络地址+主机地址
@@ -75,6 +78,7 @@
 			- DNS是域名服务器，用来解析域名的（域名和IP之间的解析）
 			- 如果没有这东西，登录某个网站时就必须输入该网站的IP地址，有了DNS就可以直接输入网址
 	- ## 网络连接模式
+	  collapsed:: true
 		- host-only（主机模式）
 			- 在某些特殊的网络调试环境中要求真实环境和虚拟环境隔离开，这时你就可采用host-only模式
 			- 在host-onboy模式中，所有的虚拟系统是可以相互通信的，但虚拟系统和真实的网络是被隔离开的。
@@ -90,6 +94,7 @@
 			- 虚拟系统也就无法和本局域网中的其他真实主机进行通讯
 			- ![image 6.png](../assets/image_6_1668096774807_0.png)
 	- ## 软件分类
+	  collapsed:: true
 		- 应用软件
 			- 就是为了实现某些业务功能
 			- 应用软件要基于对应的系统软件
@@ -112,6 +117,7 @@
 					- 托瓦兹 林纳斯 Linus-- Linux（Linux Is Not Unix）
 					- logo是企鹅
 	- ## Linux分支
+	  collapsed:: true
 		- RedHat（收费）
 			- CentOS
 				- 完全开源免费
@@ -124,6 +130,7 @@
 				- 一些主流的软件都支持Ubuntu 系统
 				- ![image 8.png](../assets/image_8_1668096803744_0.png)
 	- ## Linux下载
+	  collapsed:: true
 		- ![image 9.png](../assets/image_9_1668096816355_0.png)
 		- 官网
 		  
@@ -135,6 +142,7 @@
 			  
 			    [Download](https://www.centos.org/download/)
 # 虚拟机安装于配置
+collapsed:: true
 	- ## 虚拟化技术
 		- 更好的利用计算机闲置的资源
 		- 我们可以在计算机中虚拟出多台帮助我们执行程序或者业务
@@ -146,7 +154,9 @@
 		- DONE docker配置CentOS环境
 		- [[docker配置centos环境]]
 # linux的命令
+collapsed:: true
 	- ## 命令学习法
+	  collapsed:: true
 		- Linux命令与参数之间必须用空格隔开
 		- Linux命令是区分大小写的
 		- 如果输入错误的命令
@@ -169,6 +179,7 @@
 				- 如果将来工作中遇到生疏的命令，直接百度
 					- 如果不是为了装C，完全没有必要查看命令手册
 	- ## 常用的命令
+	  collapsed:: true
 		- whereis 查询命令文件的位置
 		- file 查看文件的类型
 		- who 查看当前在线的用户
@@ -179,6 +190,7 @@
 		- clear 清屏
 		- history 历史
 	- ## 特殊字符
+	  collapsed:: true
 		- 点
 			- 如果文件的开始是. 说明当前文件是一个隐藏文件
 			- .指向当前目录
@@ -203,6 +215,7 @@
 # Linux的文件系统
 	- ## 万事万物皆文件
 		- 文件系统
+		  collapsed:: true
 			- 操作系统如何管理文件，内部定义了一些规则或者定义
 		- 所以在Linux中的所有东西都是以文件的方式进行操作
 		- 在Linux中，文件的访问和Windows的不一样，Windows依靠的是盘符进行访问
