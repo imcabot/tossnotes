@@ -144,39 +144,39 @@
 		- DONE docker配置CentOS环境
 		- [[docker配置centos环境]]
 # linux的命令
-## 命令学习法
-- Linux命令与参数之间必须用空格隔开
-- Linux命令是区分大小写的
-- 如果输入错误的命令
-	- -bash: abcd: command not found
-	- 命令敲错了
-	- 命令未安装
-- type命令的类型（使用`type xxx`命令可以查看`xxx`命令的类型）
-	- cd is a shell builtin
-	- ping is /bin/ping
-	- ll is aliased to `ls -l --color=auto'
-	- for is a shell keyword
-- 命令的帮助文档
-	- help（使用`help xxx`命令可以查看`xxx`命令的帮助）
-		- 内置命令的帮助文档
-	- man(`man xxx`命令可以查看`xxx`命令的帮助）
-		- 外部命令的帮助文档
-		- 因为当前系统是minnimal的，very basic 没有man包
-		- 需要手动安装man
-			- yum install man man-pages -y
-		- 如果将来工作中遇到生疏的命令，直接百度
-			- 如果不是为了装C，完全没有必要查看命令手册
-## 常用的命令
-- whereis 查询命令文件的位置
-- file 查看文件的类型
-- who 查看当前在线的用户
-- whoami 我是谁
-- pwd 我在哪
-- uname -a 查看内核信息
-- echo 类似于sout syso ,打印语句
-- clear 清屏
-- history 历史
-## 特殊字符
+	- ## 命令学习法
+		- Linux命令与参数之间必须用空格隔开
+		- Linux命令是区分大小写的
+		- 如果输入错误的命令
+			- -bash: abcd: command not found
+			- 命令敲错了
+			- 命令未安装
+		- type命令的类型（使用`type xxx`命令可以查看`xxx`命令的类型）
+			- cd is a shell builtin
+			- ping is /bin/ping
+			- ll is aliased to `ls -l --color=auto'
+			- for is a shell keyword
+		- 命令的帮助文档
+			- help（使用`help xxx`命令可以查看`xxx`命令的帮助）
+				- 内置命令的帮助文档
+			- man(`man xxx`命令可以查看`xxx`命令的帮助）
+				- 外部命令的帮助文档
+				- 因为当前系统是minnimal的，very basic 没有man包
+				- 需要手动安装man
+					- yum install man man-pages -y
+				- 如果将来工作中遇到生疏的命令，直接百度
+					- 如果不是为了装C，完全没有必要查看命令手册
+	- ## 常用的命令
+		- whereis 查询命令文件的位置
+		- file 查看文件的类型
+		- who 查看当前在线的用户
+		- whoami 我是谁
+		- pwd 我在哪
+		- uname -a 查看内核信息
+		- echo 类似于sout syso ,打印语句
+		- clear 清屏
+		- history 历史
+	- ## 特殊字符
 - 点
 	- 如果文件的开始是. 说明当前文件是一个隐藏文件
 	- .指向当前目录
