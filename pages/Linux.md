@@ -5,7 +5,7 @@
 - 计算机处理的数据和指令一律用二进制数表示
 - 顺序执行程序
 - 计算机硬件由运算器、控制器、存储器、输入设备和输出设备五大部分组成
-- ![大图预览](https://cdn.flowus.cn/oss/9a1ed7f4-4e7b-48fd-832a-70823980e9f6/image.png?filename=image.png&time=1668074672&token=2e8c5affd08015bf4a37dfb34187dabb)
+- ![大图预览](https://cdn.flowus.cn/oss/9a1ed7f4-4e7b-48fd-832a-70823980e9f6/image.png?filename=image.png&time=1668074672&token=2e8c5affd08015bf4a37dfb34187dabb){:height 481, :width 573}
   ![大图预览](https://cdn.flowus.cn/oss/9b0fae81-353c-4803-b2b4-69d64e60e4ec/image.png?filename=image.png&time=1668074673&token=b5b84217a23f70cb9df688ff320b5937)
 ## 计算机硬件组成
 - 输入设备
