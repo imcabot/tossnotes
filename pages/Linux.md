@@ -1,5 +1,5 @@
 - {{renderer :tocgen,*,4,h}}
-	-
+	- linux
 -
 - [Linux-54Linux网络命令-相互免秘钥_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV16Q4y1y7xS?p=54&vd_source=623bd6d17db3c63ea063661fc62f1ec6)
 - {{video https://www.bilibili.com/video/BV16Q4y1y7xS?p=54&vd_source=623bd6d17db3c63ea063661fc62f1ec6}}
@@ -778,6 +778,7 @@ collapsed:: true
 			- 信息黑洞
 				- ls /etc/abc >> /dev/null 2>&1
 # Linux的系统进程
+collapsed:: true
 	- ## 进程信息
 		- ps -ef
 			- UID PID PPID C STIME TTY        TIME CMD
