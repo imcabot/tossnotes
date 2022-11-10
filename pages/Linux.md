@@ -713,7 +713,7 @@
 	- ls / 1 > lucky 标准输出
 	- ls / > 标准输出
 	- ls abcd 2 > lucky 错误输出
-- ``> 替换 >> 追加
+- `> 替换 >> 追加`
 	- ls / 1 >> lucky
 	- ls / 1 > lucky
 - 结合使用
