@@ -214,7 +214,6 @@ collapsed:: true
 # Linux的文件系统
 collapsed:: true
 	- ## 万事万物皆文件
-	  collapsed:: true
 		- 文件系统
 			- 操作系统如何管理文件，内部定义了一些规则或者定义
 		- 所以在Linux中的所有东西都是以文件的方式进行操作
