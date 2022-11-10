@@ -142,7 +142,7 @@
 	- Virtualbox
 	- VirtualMachine
 - ## docker 配置CentOS环境
-- TODO docker配置CentOS环境
+- DONE docker配置CentOS环境
 - [[docker配置centos环境]]
 # linux的命令
 ## 命令学习法
