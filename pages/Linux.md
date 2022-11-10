@@ -578,38 +578,44 @@ collapsed:: true
 			- vi /etc/host
 			- 将来我们需要把所有的虚拟机都配置hosts文件
 			- 192.168.31.101 bd1601
-## 网络相关命令
-- ipconfig
-	- 查看当前网卡的配置信息
-	- 这个命令属于net-tools中的一个命令，但是在CentOS7的minimal版并没有集成这个包
-	- 所以CentOS7的版本需要自己动手安装
-	- 如果没有ifconfig，可以使用ip addr 临时代替
-- netstat
-	- 查看当前网络的状态信息
-	- 一个机器默认有65536个端口号[0.65535]
-	- 这是一个逻辑的概念，将来我么需要使用程序监听指定的端口，等待别人的访问
-	- 一个端口只能被一个程序所监听，
-	- *yum install -y net-tools*
-	- netstat -anp
-	- netstat -r 核心路由表 == route
-- ping
-	- 查看与目标IP地址能否连通
-- telnet
-	- 查看与目标IP的指定端口能否连通
-	- yum install telnet -y
-	- telnet 192.168.31.44 22
-	-
-- curl
-	- restful风格，所有的资源在挖去拿网络上都有唯一的定位
-	- 那么我们可以通过这个唯一定位标志指定的资源
-	- curl -X GET http://www.baidu.com
-## 防火墙
-- 防火墙技术是通过邮寄结合各类用于安全管理与筛选的软件和硬件设备，帮助计算网络于其内、外网之间构建一道相对隔绝的保护屏障，以保护用户资料与信息安全性的一种技术
-- 在centos7+中，使用firewalld代替以前的iptables；
-- ![image 13.png](../assets/image_13_1668097073394_0.png)
-- 开启一个端口的正确操作
-- ![image 14.png](../assets/image_14_1668097082257_0.png)
-## 加密算法
+	- ## 网络相关命令
+	  collapsed:: true
+		- ipconfig
+		  collapsed:: true
+			- 查看当前网卡的配置信息
+			- 这个命令属于net-tools中的一个命令，但是在CentOS7的minimal版并没有集成这个包
+			- 所以CentOS7的版本需要自己动手安装
+			- 如果没有ifconfig，可以使用ip addr 临时代替
+		- netstat
+		  collapsed:: true
+			- 查看当前网络的状态信息
+			- 一个机器默认有65536个端口号[0.65535]
+			- 这是一个逻辑的概念，将来我么需要使用程序监听指定的端口，等待别人的访问
+			- 一个端口只能被一个程序所监听，
+			- *yum install -y net-tools*
+			- netstat -anp
+			- netstat -r 核心路由表 == route
+		- ping
+		  collapsed:: true
+			- 查看与目标IP地址能否连通
+		- telnet
+		  collapsed:: true
+			- 查看与目标IP的指定端口能否连通
+			- yum install telnet -y
+			- telnet 192.168.31.44 22
+			-
+		- curl
+		  collapsed:: true
+			- restful风格，所有的资源在挖去拿网络上都有唯一的定位
+			- 那么我们可以通过这个唯一定位标志指定的资源
+			- curl -X GET http://www.baidu.com
+	- ## 防火墙
+		- 防火墙技术是通过邮寄结合各类用于安全管理与筛选的软件和硬件设备，帮助计算网络于其内、外网之间构建一道相对隔绝的保护屏障，以保护用户资料与信息安全性的一种技术
+		- 在centos7+中，使用firewalld代替以前的iptables；
+		- ![image 13.png](../assets/image_13_1668097073394_0.png)
+		- 开启一个端口的正确操作
+		- ![image 14.png](../assets/image_14_1668097082257_0.png)
+	- ## 加密算法
 - ### 不可逆加密算法
 - ![image 15.png](../assets/image_15_1668097096114_0.png)
 - 可以通过数据计算加密后的结果，但是通过结果无法计算出加密数据
