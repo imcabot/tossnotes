@@ -584,16 +584,13 @@ collapsed:: true
 		- ![image 14.png](../assets/image_14_1668097082257_0.png)
 	- ## 加密算法
 		- ### 不可逆加密算法
-		  collapsed:: true
 			- ![image 15.png](../assets/image_15_1668097096114_0.png)
 			- 可以通过数据计算加密后的结果，但是通过结果无法计算出加密数据
 			- 应用场景
-			  collapsed:: true
 				- Hash算法常用在不可还原的密码存储、信息完整性校验
 				- md5算法用于 文档、音视频文件、软件安装包等用新老摘要对比是否一样（接受到的文件是否被修改）
 				- 用户名或者密码加密后数据库存储（数据库大多数不会存储关键信息的明文，就像很多登录功能的忘记密码不能找回，只能重置）
 		- ### 对称加密算法
-		  collapsed:: true
 			- ![image 16.png](../assets/image_16_1668097109255_0.png)
 			- Sysmetric Key Encryption
 			- 代表性算法叫做 DES、3DES、Blowfish、IDEA、RC4、RC5、RC6和AES
@@ -607,7 +604,6 @@ collapsed:: true
 			- 应用场景
 				- 登录信息用户名和密码加密、传输加密、指令加密
 		- ### 非对称算法
-		  collapsed:: true
 			- ![image 17.png](../assets/image_17_1668097120213_0.png)
 			- Asymmetric Key Encryption
 			- 非对称加密算法需要一对密钥（两个密钥）：
@@ -622,15 +618,12 @@ collapsed:: true
 			- 应用场景
 				- HTTP（ssl）证书里制作、CRS请求证书、金融通信加密、蓝牙等硬件信息加密配对传输、关键的登录信息验证。
 	- ## 主机间相互免密钥
-	  collapsed:: true
 		- 可以通过ssh命令免密钥链接到其他的主机
 		- 如果是第一次简历连接，需要输入yes
-		  collapsed:: true
 			- 在~/.ssh/known_hosts文件记录了以前访问地址（ip hostname）的信息
 			- 在访问地址的时候如果没有收录到known_hosts文件中，就需要输入yes
 			- 如果以前收录到known_hosts文件中，直接输入密码即可
 		- 需要输入密码
-		  collapsed:: true
 			- 生成密钥
 				- ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
 				- ![image 18.png](../assets/image_18_1668097131667_0.png)
@@ -640,7 +633,6 @@ collapsed:: true
 				- ![image 19.png](../assets/image_19_1668097140568_0.png)
 		- 相互免密钥工作流程
 	- ## 主机名与Host校验
-	  collapsed:: true
 		- ![image 20.png](../assets/image_20_1668097153262_0.png)
 		- 错误原因
 			- Cannot determine realm for numeric host
@@ -654,20 +646,16 @@ collapsed:: true
 # 日期与时间
 collapsed:: true
 	- ## 时间命令
-	  collapsed:: true
 		- date
 		- 修改时间
 			- date -s 11:11:11
 			- date -s 2022-11-11
 			- date -s 2022-11-11 11:11:11
 	- ## 时间自动同步
-	  collapsed:: true
 		- 自动同步时间
-		  collapsed:: true
 			- yum install ntp -y
 			- ntpdate cn.ntp.org.cn
 		- 在CentOS8.0中默认不再支持ntp软件包，时间同步将由chrony来实现
-		  collapsed:: true
 			- dnf install chrony -y
 			- 手动同步时间
 			  
@@ -688,7 +676,6 @@ collapsed:: true
 			  
 			    **注意**：chronyd服务启动后，不能再用chronyd方式手动同步时间，会报“Fatal error : Another chronyd may already be running”的错误。
 	- ## 命令执行时间统计
-	  collapsed:: true
 		- ```Shell
 		  #!/bin/bash
 		  start=$(date +%s)
@@ -701,26 +688,20 @@ collapsed:: true
 # 用户-组-权限
 collapsed:: true
 	- ## 用户
-	  collapsed:: true
 		- 新增用户
-		  collapsed:: true
 			- useradd luckyboy
 			- 会创建同名的组和家目录
 		- 设置密码
-		  collapsed:: true
 			- passwd luckyboy
 		- 删除用户
-		  collapsed:: true
 			- userdel -r luckyboy
 			- 级联删除家目录和组
 		- 修改用户信息
-		  collapsed:: true
 			- usermod -l luckyss luckyls 修改用户名
 				- 家目录和组名称是不会修改的
 			- usermod -L luckyss 锁定用户名
 			- usermod -U luckyss 解锁用户名
 		- 常用文件
-		  collapsed:: true
 			- cat /etc/shadow
 				- 用户名和密码
 			- cat /etc/passwd
@@ -728,7 +709,6 @@ collapsed:: true
 				- 6.5系统0-499 普通500+
 				- 7.6系统0-999 普通1000+
 		- 切换账户
-		  collapsed:: true
 			- su luckboy
 	- ## 组
 	  collapsed:: true
