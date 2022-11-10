@@ -116,22 +116,22 @@
 				- 不要使用最新版的CentOS
 			- 主要用于服务器版本
 			- ![image 7.png](../assets/image_7_1668096791190_0.png)
-- Debain（免费）
-	- Ubuntu
-		- 视窗界面良好的Linux系统
-		- 一些主流的软件都支持Ubuntu 系统
-		- ![image 8.png](../assets/image_8_1668096803744_0.png)
-- ## Linux下载
-- ![image 9.png](../assets/image_9_1668096816355_0.png)
-- 官网
-  
-  [linux.org](https://linux.org)
-	- 下载页面
-	  
-	    [linux.org](https://linux.org/pages/download/)
-	- centos下载地址
-	  
-	    [Download](https://www.centos.org/download/)
+		- Debain（免费）
+			- Ubuntu
+				- 视窗界面良好的Linux系统
+				- 一些主流的软件都支持Ubuntu 系统
+				- ![image 8.png](../assets/image_8_1668096803744_0.png)
+	- ## Linux下载
+		- ![image 9.png](../assets/image_9_1668096816355_0.png)
+			- 官网
+			  
+			  [linux.org](https://linux.org)
+				- 下载页面
+				  
+				    [linux.org](https://linux.org/pages/download/)
+				- centos下载地址
+				  
+				    [Download](https://www.centos.org/download/)
 # 虚拟机安装于配置
 ## 虚拟化技术
 - 更好的利用计算机闲置的资源
