@@ -778,7 +778,7 @@ collapsed:: true
 				- ls /etc/abc >> lucky 2 >&1
 			- 信息黑洞
 				- ls /etc/abc >> /dev/null 2>&1
-# Linux的系统进程
+- # [[Linux]]的系统进程
 	- ## 进程信息
 		- ps -ef
 			- UID PID PPID C STIME TTY        TIME CMD
