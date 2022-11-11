@@ -812,5 +812,6 @@ collapsed:: true
 		- [[Linux]]每次修改完成之后,需要重新加载文件 source /etc/profile
 	- ## 软件的安装方式
 		- 解压就可以使用
-		- 使用
+		- 使用安装包安装(Windows-exe,[[Linux]]-rpm)
+			-
 -
