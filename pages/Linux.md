@@ -868,4 +868,6 @@ collapsed:: true
 				- yum makecache
 		- 安装mysql数据库
 			- TODO 完成mysql的安装
--
+- [[Linux]]三剑客
+	- 普通剑客
+		- cut
