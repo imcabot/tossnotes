@@ -838,4 +838,6 @@ collapsed:: true
 			- tar -zxf apache-tomcat-7.0.61.tar.gz
 		- 拷贝到/opt/school目录下
 			- mkdir -p /opt/school
-			-
+			- cp -r apache-tomcat-7.0.61.tar.gz
+		- 启动tomcat
+			- cd /opt/school/apache
