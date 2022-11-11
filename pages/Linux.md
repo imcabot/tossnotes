@@ -873,4 +873,7 @@ collapsed:: true
 		- cut
 			- 用指定的规则来切分文本
 			- cut -d':' -f1,2,3 passwd | grep school
-		-
+		- sort
+			- sort lucky
+				- 对文本的行进行排序
+			- sort -t' '
