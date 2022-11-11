@@ -865,4 +865,5 @@ collapsed:: true
 			- 清空当前yum源的缓存
 				- yum clean all
 			- 获取阿里云的缓存
-				-
+				- yum makecache
+			-
