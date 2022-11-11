@@ -809,5 +809,5 @@ collapsed:: true
 		- $PATH的配置变量在/etc/profile
 		- Windows路径与路径之间用;(分号)连接
 		- [[Linux]]路径与路径之间用:(冒号)连接
-		- Linux每次修改
+		- Linux每次修改完成之后,需要
 -
