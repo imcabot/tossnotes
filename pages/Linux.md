@@ -824,5 +824,6 @@ collapsed:: true
 			- rpm -qa | grep jdk
 			- rpm -q jdk
 		- 卸载
-			- rpm -e jdk-1.7.0
+			- rpm -e jdk-1.7.0_67-fcs.x86_64
+		- 需要手动安装
 -
