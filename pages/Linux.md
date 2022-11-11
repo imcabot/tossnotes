@@ -842,4 +842,6 @@ collapsed:: true
 		- 启动tomcat
 			- cd /opt/school/apache-tomcat-7.0.61/bin
 			- ./startup.sh
-	-
+	- YUM安装
+		- yum的作用
+			- 可以帮助
