@@ -876,4 +876,5 @@ collapsed:: true
 		- sort
 			- sort lucky
 				- 对文本的行进行排序
-			- sort -t' '
+			- sort -t' ' -k2 lucky
+				- 对每一行的数据进行切分,
