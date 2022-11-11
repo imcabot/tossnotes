@@ -840,4 +840,6 @@ collapsed:: true
 			- mkdir -p /opt/school
 			- cp -r apache-tomcat-7.0.61.tar.gz
 		- 启动tomcat
-			- cd /opt/school/apache
+			- cd /opt/school/apache-tomcat-7.0.61/bin
+			- ./startup.sh
+	-
