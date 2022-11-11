@@ -815,5 +815,7 @@ collapsed:: true
 		- 使用安装包安装(Windows-exe,[[Linux]]-rpm)
 			- 自己下载安装包
 			- 使用统一的软件帮助我们安装
-		- 通过源码
+		- 通过源码安装
+	- RPM安装
+		- RedHat Package Manager,它
 -
