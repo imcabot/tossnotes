@@ -866,4 +866,5 @@ collapsed:: true
 				- yum clean all
 			- 获取阿里云的缓存
 				- yum makecache
-			-
+		- 安装mysql数据库
+			- /TODO 完成
