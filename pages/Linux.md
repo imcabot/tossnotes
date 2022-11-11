@@ -885,4 +885,7 @@ collapsed:: true
 		- wc
 			- 统计单词的数量
 			- wc lucky
-			-
+			- 4 15 79 lucky
+				- -l line
+				- -w word
+				- -c char
