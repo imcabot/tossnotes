@@ -808,5 +808,6 @@ collapsed:: true
 		- 如果当前路径找不到对应的命令，从环境变量¥PATH查找
 		- $PATH的配置变量在/etc/profile
 		- Windows路径与路径之间用;(分号)连接
-		- Linux路径与路径之间
+		- [[Linux]]路径与路径之间用:(冒号)连接
+		- Linux每次修改
 -
