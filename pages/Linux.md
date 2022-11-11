@@ -836,4 +836,6 @@ collapsed:: true
 	- ## 压缩包解压安装
 		- 解压文件
 			- tar -zxf apache-tomcat-7.0.61.tar.gz
-		-
+		- 拷贝到/opt/school目录下
+			- mkdir -p /opt/school
+			-
