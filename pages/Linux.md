@@ -816,7 +816,7 @@ collapsed:: true
 			- 自己下载安装包
 			- 使用统一的软件帮助我们安装
 		- 通过源码安装
-	- RPM安装
+	- ## RPM安装
 		- RedHat Package Manager,它属于红帽的一种包管理方式
 		- 通过RPM命令安装软件
 			- rpm -jvh jdk-7u67-[[Linux]]-x64.rpm
