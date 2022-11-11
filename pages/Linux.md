@@ -852,6 +852,6 @@ collapsed:: true
 			- search 查询命令或软件
 			- info
 				- 查看包的信息
-			- list
-				-
+			- list / list jdk
+				- 查询安装的rpm包,或者只查询某一周
 	-
