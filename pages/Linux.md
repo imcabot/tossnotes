@@ -831,4 +831,5 @@ collapsed:: true
 			  export JAVA_HOME=/usr/java/jdk1.7.0_67
 			  export PATH=$JAVA_HOME/bin:$PATH
 			  ```
-			- 重新
+			- 重新加载配置文件
+				- source /etc/profile
