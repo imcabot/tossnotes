@@ -849,5 +849,7 @@ collapsed:: true
 			- 如果软件有其他依赖,会帮我们安装依赖后在安装软件
 			- 类似于Maven
 		- yum命令(dnf命令)
-			-
+			- search 查询命令或软件
+			- info
+				- 查看包的信息
 	-
