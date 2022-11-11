@@ -810,5 +810,6 @@ collapsed:: true
 		- Windows路径与路径之间用;(分号)连接
 		- [[Linux]]路径与路径之间用:(冒号)连接
 		- [[Linux]]每次修改完成之后,需要重新加载文件 source /etc/profile
-	- ##
+	- ## 软件的安装方式
+		- 解压就可以
 -
