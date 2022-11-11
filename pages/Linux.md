@@ -417,6 +417,7 @@ collapsed:: true
 			- find要查找的范围 -name 名字
 			- find /etc -name profile
 	- ## VI和VIM编辑器
+	  id:: c4b95dd4-205b-41d3-ac00-57f1871f163b
 		- ![image 11.png](../assets/image_11_1668097029548_0.png)
 		- ### 打开文件
 			- 正常打开
