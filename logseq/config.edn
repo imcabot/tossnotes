@@ -298,4 +298,5 @@
  :file/name-format :triple-lowbar
  :feature/enable-whiteboards? true
  :publishing/all-pages-public? true
+ :editor/logical-outdenting? true
  }
