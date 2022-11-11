@@ -881,4 +881,4 @@ collapsed:: true
 			- sort -t' ' -k2 -r lucky
 				- 逆序
 			- sort -t' ' -k2 -n lucky
-				- 按照
+				- 按照数值大小进行排序,如果有字幕
