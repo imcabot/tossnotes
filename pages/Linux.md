@@ -820,5 +820,5 @@ collapsed:: true
 		- RedHat Package Manager,它属于红帽的一种包管理方式
 		- 通过RPM命令安装软件
 			- rpm -jvh jdk-7u67-[[Linux]]-x64.rpm
-			-
+		- 可以查询
 -
