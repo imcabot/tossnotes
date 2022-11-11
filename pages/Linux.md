@@ -862,3 +862,4 @@ collapsed:: true
 			- 使用wget获取阿里yum源配置文件
 				- wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos6.repo
 				- wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos7.repo
+			- 清空当前yum源的
