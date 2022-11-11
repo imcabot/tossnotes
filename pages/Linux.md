@@ -807,5 +807,5 @@ collapsed:: true
 		- 当我们执行一个命令的时候，默认从当前路径开始查找
 		- 如果当前路径找不到对应的命令，从环境变量¥PATH查找
 		- $PATH的配置变量在/etc/profile
-		- Windows
+		- Windows路径与路径之间用;(
 -
