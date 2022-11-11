@@ -881,4 +881,8 @@ collapsed:: true
 			- sort -t' ' -k2 -r lucky
 				- 逆序
 			- sort -t' ' -k2 -n lucky
-				- 按照数值大小进行排序,如果有字幕
+				- 按照数值大小进行排序,如果有字母,字母在前
+		- wc
+			- 统计单词的数量
+			- wc lucky
+			-
