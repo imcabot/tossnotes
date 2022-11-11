@@ -835,4 +835,5 @@ collapsed:: true
 				- source /etc/profile
 	- ## 压缩包解压安装
 		- 解压文件
-			- tar -zxf apache-
+			- tar -zxf apache-tomcat-7.0.61.tar.gz
+		-
