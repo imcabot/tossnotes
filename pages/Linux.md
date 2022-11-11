@@ -857,4 +857,5 @@ collapsed:: true
 		- 更换yum源
 			- 首先安装wget
 				- yum install wget -y
-			- 将系统原始
+			- 将系统原始配置文件失效
+				- mv /etc/yum.repos
