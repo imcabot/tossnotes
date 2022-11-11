@@ -821,5 +821,8 @@ collapsed:: true
 		- 通过RPM命令安装软件
 			- rpm -jvh jdk-7u67-[[Linux]]-x64.rpm
 		- 可以查询软件
-			-
+			- rpm -qa | grep jdk
+			- rpm -q jdk
+		- 卸载
+			- rpm -e jdk-1.7.0
 -
