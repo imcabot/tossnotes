@@ -779,7 +779,6 @@ collapsed:: true
 			- 信息黑洞
 				- ls /etc/abc >> /dev/null 2>&1
 # Linux的系统进程
-collapsed:: true
 	- ## 进程信息
 		- ps -ef
 			- UID PID PPID C STIME TTY        TIME CMD
