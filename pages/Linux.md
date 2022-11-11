@@ -827,5 +827,6 @@ collapsed:: true
 			- rpm -e jdk-1.7.0_67-fcs.x86_64
 		- 需要手动配置java的环境变量
 			- vim /etc/profile
-			-
+			- ```shell
+			  ```
 -
