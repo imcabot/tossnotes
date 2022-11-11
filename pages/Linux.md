@@ -817,5 +817,6 @@ collapsed:: true
 			- 使用统一的软件帮助我们安装
 		- 通过源码安装
 	- RPM安装
-		- RedHat Package Manager,它
+		- RedHat Package Manager,它属于红帽的一种包管理方式
+		- 通过
 -
