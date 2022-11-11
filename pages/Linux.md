@@ -858,4 +858,4 @@ collapsed:: true
 			- 首先安装wget
 				- yum install wget -y
 			- 将系统原始配置文件失效
-				- mv /etc/yum.repos
+				- mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base,repo.backup
