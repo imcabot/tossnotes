@@ -833,4 +833,6 @@ collapsed:: true
 			  ```
 			- 重新加载配置文件
 				- source /etc/profile
-	- ## 压缩包
+	- ## 压缩包解压安装
+		- 解压文件
+			- tar -zxf apache-
