@@ -828,5 +828,7 @@ collapsed:: true
 		- 需要手动配置java的环境变量
 			- vim /etc/profile
 			- ```shell
+			  export JAVA_HOME=/usr/java/jdk1.7.0_67
+			  export PATH=$JAVA_HOME/bin:$PATH
 			  ```
 -
