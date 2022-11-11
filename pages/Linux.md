@@ -842,8 +842,10 @@ collapsed:: true
 		- 启动tomcat
 			- cd /opt/school/apache-tomcat-7.0.61/bin
 			- ./startup.sh
-	- YUM安装
+	- YUM安装(DNF安装)
 		- yum的作用
 			- 可以帮助我们管理rpm包
 			- 可以帮我们安装软件
-			- 如果软件有其他依赖,会帮我们安装依赖后在安装
+			- 如果软件有其他依赖,会帮我们安装依赖后在安装软件
+			- 类似于Maven
+	-
