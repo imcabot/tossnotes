@@ -871,4 +871,6 @@ collapsed:: true
 - [[Linux]]三剑客
 	- 普通剑客
 		- cut
-			- 用指定的规则来
+			- 用指定的规则来切分文本
+			- cut -d':' -f1,2,3 passwd | grep school
+		-
