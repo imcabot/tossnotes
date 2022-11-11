@@ -855,4 +855,6 @@ collapsed:: true
 			- list / list jdk
 				- 查询安装的rpm包,或者只查询某一周
 		- 更换yum源
-			-
+			- 首先安装wget
+				- yum install wget -y
+			- 将系统原始
