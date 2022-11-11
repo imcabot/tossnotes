@@ -844,4 +844,6 @@ collapsed:: true
 			- ./startup.sh
 	- YUM安装
 		- yum的作用
-			- 可以帮助
+			- 可以帮助我们管理rpm包
+			- 可以帮我们安装软件
+			- 如果软件有其他
