@@ -852,4 +852,6 @@ collapsed:: true
 			- search 查询命令或软件
 			- info
 				- 查看包的信息
+			- list
+				-
 	-
