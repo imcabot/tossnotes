@@ -802,5 +802,6 @@ collapsed:: true
 			- nohup ping baidu.com >> baidu 2>&1 &
 	- ## 杀死进程
 		- kill -9 17599
--
+- # [[Linux]]的软件安装
+	- ##
 -
