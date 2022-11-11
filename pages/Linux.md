@@ -872,15 +872,15 @@ collapsed:: true
 	- 普通剑客
 		- cut
 			- 用指定的规则来切分文本
-			- cut -d':' -f1,2,3 passwd | grep school
+			- cut -d ':' -f1,2,3 passwd | grep school
 		- sort
 			- sort lucky
 				- 对文本的行进行排序
-			- sort -t' ' -k2 lucky
+			- sort -t ' ' -k2 lucky
 				- 对每一行的数据进行切分,按照第二例进行排序
-			- sort -t' ' -k2 -r lucky
+			- sort -t ' ' -k2 -r lucky
 				- 逆序
-			- sort -t' ' -k2 -n lucky
+			- sort -t ' ' -k2 -n lucky
 				- 按照数值大小进行排序,如果有字母,字母在前
 		- wc
 			- 统计单词的数量
